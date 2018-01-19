@@ -1,4 +1,4 @@
-update=1/19/2018 10:59:25 AM
+update=Fri 19 Jan 2018 12:20:17 PM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -66,3 +66,4 @@ LibName34=kicad_lib_tmk/mkl27z256vfm4
 LibName35=Molex-0548190589.pretty/Schematic Library/Molex-0548190589
 LibName36=MX_Alps_Hybrid.pretty/Schematic Library/MX_Alps_Hybrids
 LibName37=WS2812B.pretty/Schematic-Symbol/ws2812b
+LibName38=Tag-Connect.pretty/Schematic/Tag-Connect
