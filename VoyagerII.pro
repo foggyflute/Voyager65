@@ -1,4 +1,4 @@
-update=Fri 19 Jan 2018 12:20:17 PM PST
+update=1/19/2018 6:08:33 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -67,3 +67,4 @@ LibName35=Molex-0548190589.pretty/Schematic Library/Molex-0548190589
 LibName36=MX_Alps_Hybrid.pretty/Schematic Library/MX_Alps_Hybrids
 LibName37=WS2812B.pretty/Schematic-Symbol/ws2812b
 LibName38=Tag-Connect.pretty/Schematic/Tag-Connect
+LibName39=locallib.pretty/schema/ai03-locallib
