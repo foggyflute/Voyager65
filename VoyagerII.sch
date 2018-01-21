@@ -513,7 +513,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 2500 1950 2500
 $Sheet
-S 6750 2800 1900 875 
+S 1350 6100 1900 875 
 U 5A6412FB
 F0 "Matrix" 60
 F1 "Matrix.sch" 60
