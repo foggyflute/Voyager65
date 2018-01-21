@@ -675,4 +675,40 @@ F 3 "" H 8300 3450 50  0001 C CNN
 	1    8300 3450
 	1    0    0    -1  
 $EndComp
+Text GLabel 7325 3750 2    60   Input ~ 0
+LED-A1
+Text GLabel 7325 3650 2    60   Input ~ 0
+LED-A2
+Text GLabel 7325 3550 2    60   Input ~ 0
+LED-A3
+Text GLabel 7325 3450 2    60   Input ~ 0
+LED-A4
+Text GLabel 7325 3350 2    60   Input ~ 0
+LED-A5
+Text GLabel 7325 3250 2    60   Input ~ 0
+LED-A6
+Text GLabel 7325 3150 2    60   Input ~ 0
+LED-A7
+Text GLabel 7325 3050 2    60   Input ~ 0
+LED-A8
+Text GLabel 6525 3050 0    60   Input ~ 0
+LED-A9
+Text GLabel 6525 3650 0    60   Input ~ 0
+LED-B1
+Text GLabel 6525 3750 0    60   Input ~ 0
+LED-B2
+Text GLabel 6525 3850 0    60   Input ~ 0
+LED-B3
+Text GLabel 6525 3950 0    60   Input ~ 0
+LED-B4
+Text GLabel 6525 4050 0    60   Input ~ 0
+LED-B5
+Text GLabel 6525 4150 0    60   Input ~ 0
+LED-B6
+Text GLabel 6525 4250 0    60   Input ~ 0
+LED-B7
+Text GLabel 6525 4350 0    60   Input ~ 0
+LED-B8
+Text GLabel 7325 4350 2    60   Input ~ 0
+LED-B9
 $EndSCHEMATC
