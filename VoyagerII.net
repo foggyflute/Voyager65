@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Ryota\Documents\GitHub\VoyagerII\VoyagerII.sch)
-    (date "1/21/2018 11:43:37 PM")
+    (date "1/21/2018 11:58:15 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1636,11 +1636,11 @@
       (node (ref U1) (pin 2)))
     (net (code 32) (name "Net-(USB1-Pad2)")
       (node (ref USB1) (pin 2)))
-    (net (code 33) (name SCL)
+    (net (code 33) (name I2C-)
       (node (ref R4) (pin 1))
       (node (ref U4) (pin 20))
       (node (ref U1) (pin 29)))
-    (net (code 34) (name SDA)
+    (net (code 34) (name I2C+)
       (node (ref U4) (pin 19))
       (node (ref U1) (pin 28))
       (node (ref R3) (pin 1)))

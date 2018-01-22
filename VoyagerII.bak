@@ -476,13 +476,13 @@ F 3 "" H 5600 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8350 3950 2    60   Input ~ 0
-SDA
+SDA+
 Text GLabel 8350 3850 2    60   Input ~ 0
-SCL
+SCL-
 Text GLabel 2775 3350 0    60   Input ~ 0
-SDA
+SDA+
 Text GLabel 2775 3450 0    60   Input ~ 0
-SCL
+SCL-
 $Comp
 L +5V #PWR018
 U 1 1 5A64EBF7
