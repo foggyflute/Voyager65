@@ -75,10 +75,6 @@ F 3 "" H 1125 1500 60  0001 C CNN
 	1    1125 1500
 	0    -1   -1   0   
 $EndComp
-Text GLabel 2900 1500 2    60   Input ~ 0
-DP
-Text GLabel 2900 1400 2    60   Input ~ 0
-DM
 $Comp
 L Polyfuse_Small F1
 U 1 1 5A62446D
@@ -711,4 +707,8 @@ Text GLabel 6525 4350 0    60   Input ~ 0
 LED-B8
 Text GLabel 7325 4350 2    60   Input ~ 0
 LED-B9
+Text GLabel 2900 1400 2    60   Input ~ 0
+D-
+Text GLabel 2900 1500 2    60   Input ~ 0
+D+
 $EndSCHEMATC
