@@ -1459,4 +1459,44 @@ F 3 "" H 8225 1200 60  0001 C CNN
 	1    8250 1225
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1675 1025 1675 3075
+Connection ~ 1675 2450
+Connection ~ 1675 1825
+Connection ~ 1675 1200
+Text GLabel 1675 1025 1    60   Input ~ 0
+COL0
+Wire Wire Line
+	2125 1025 2125 3075
+Text GLabel 2125 1025 1    60   Input ~ 0
+COL1
+Connection ~ 2125 1200
+Wire Wire Line
+	2575 1025 2575 3075
+Connection ~ 2575 1825
+Connection ~ 2575 2450
+Connection ~ 2575 1200
+Text GLabel 2575 1025 1    60   Input ~ 0
+COL2
+Wire Wire Line
+	3025 1025 3025 3075
+Text GLabel 3025 1025 1    60   Input ~ 0
+COL3
+Connection ~ 3025 1200
+Connection ~ 3025 1825
+Connection ~ 3025 2450
+Wire Wire Line
+	3475 1025 3475 3075
+Connection ~ 3475 2450
+Connection ~ 3475 1825
+Connection ~ 3475 1200
+Text GLabel 3475 1025 1    60   Input ~ 0
+COL4
+Wire Wire Line
+	3925 1025 3925 3075
+Text GLabel 3925 1025 1    60   Input ~ 0
+COL5
+Connection ~ 3925 1200
+Connection ~ 3925 1825
+Connection ~ 3925 2450
 $EndSCHEMATC
