@@ -711,4 +711,8 @@ Text GLabel 2900 1400 2    60   Input ~ 0
 D-
 Text GLabel 2900 1500 2    60   Input ~ 0
 D+
+Text Label 1800 1400 0    60   ~ 0
+USB-
+Text Label 1800 1500 0    60   ~ 0
+USB+
 $EndSCHEMATC
