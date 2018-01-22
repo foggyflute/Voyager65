@@ -5765,7 +5765,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1.75U (layer F.Cu) (tedit 59783225) (tstamp 5A6549E3)
-    (at 0 0)
+    (at 64.29375 95.25)
     (path /5A6412FB/5A6497CC)
     (fp_text reference K_CAPS1 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5803,7 +5803,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1.25U (layer F.Cu) (tedit 59782DAB) (tstamp 5A6549F0)
-    (at 0 0)
+    (at 59.53125 95.25)
     (path /5A6412FB/5A660657)
     (fp_text reference K_CAPS2 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6235,7 +6235,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 59782D32) (tstamp 5A654A89)
-    (at 0 0)
+    (at 80.9625 114.3)
     (path /5A6412FB/5A64989C)
     (fp_text reference K_ISO\1 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6691,7 +6691,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-2.25U (layer F.Cu) (tedit 597832FD) (tstamp 5A654B29)
-    (at 0 0)
+    (at 69.05625 114.3)
     (path /5A6412FB/5A64988F)
     (fp_text reference K_SHIFT1 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6733,7 +6733,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1.25U (layer F.Cu) (tedit 59782DAB) (tstamp 5A654B36)
-    (at 0 0)
+    (at 59.53125 114.3)
     (path /5A6412FB/5A669FBA)
     (fp_text reference K_SHIFT2 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6809,7 +6809,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1.5U (layer F.Cu) (tedit 59782DDE) (tstamp 5A654B50)
-    (at 0 0)
+    (at 61.9125 76.2)
     (path /5A6412FB/5A647EA8)
     (fp_text reference K_TAB1 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
