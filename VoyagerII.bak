@@ -43,7 +43,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -715,4 +715,10 @@ Text Label 1800 1400 0    60   ~ 0
 USB-
 Text Label 1800 1500 0    60   ~ 0
 USB+
+$Sheet
+S 3475 6100 1075 875 
+U 5A6B38C8
+F0 "RGB" 60
+F1 "RGB.sch" 60
+$EndSheet
 $EndSCHEMATC
