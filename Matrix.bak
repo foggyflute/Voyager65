@@ -772,7 +772,7 @@ F 3 "" V 1400 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1475 2650 1400 2650
+	1225 2650 1475 2650
 $Comp
 L MX-1U K_A1
 U 1 1 5A6497E6
@@ -1499,4 +1499,71 @@ COL5
 Connection ~ 3925 1200
 Connection ~ 3925 1825
 Connection ~ 3925 2450
+Wire Wire Line
+	1225 2650 1225 2450
+Connection ~ 1400 2650
+Wire Wire Line
+	1025 2650 1150 2650
+Wire Wire Line
+	1150 2650 1150 2575
+Wire Wire Line
+	1150 2575 1675 2575
+Connection ~ 1675 2575
+Wire Wire Line
+	4375 1025 4375 4325
+Connection ~ 4375 2450
+Connection ~ 4375 1825
+Connection ~ 4375 1200
+Text GLabel 4375 1025 1    60   Input ~ 0
+COL6
+Wire Wire Line
+	4825 1025 4825 3075
+Connection ~ 4825 1200
+Connection ~ 4825 1825
+Connection ~ 4825 2450
+Connection ~ 4375 3075
+Connection ~ 4375 3700
+Wire Wire Line
+	5275 1025 5275 3075
+Connection ~ 5275 2450
+Connection ~ 5275 1825
+Connection ~ 5275 1200
+Text GLabel 4825 1025 1    60   Input ~ 0
+COL7
+Text GLabel 5275 1025 1    60   Input ~ 0
+COL8
+Wire Wire Line
+	5725 1025 5725 3075
+Connection ~ 5725 1200
+Connection ~ 5725 1825
+Connection ~ 5725 2450
+Wire Wire Line
+	6175 1025 6175 3075
+Connection ~ 6175 2450
+Connection ~ 6175 1825
+Connection ~ 6175 1200
+Text GLabel 5725 1025 1    60   Input ~ 0
+COL9
+Text GLabel 6175 1025 1    60   Input ~ 0
+COL10
+Wire Wire Line
+	6625 1025 6625 2450
+Connection ~ 6625 1200
+Connection ~ 6625 1825
+Wire Wire Line
+	7075 1025 7075 2450
+Connection ~ 7075 1825
+Connection ~ 7075 1200
+Text GLabel 6625 1025 1    60   Input ~ 0
+COL11
+Text GLabel 7075 1025 1    60   Input ~ 0
+COL12
+Wire Wire Line
+	7525 1025 7525 2450
+Connection ~ 7525 1200
+Connection ~ 7525 1825
+Wire Wire Line
+	7975 1025 7975 2450
+Connection ~ 7975 1825
+Connection ~ 7975 1200
 $EndSCHEMATC
