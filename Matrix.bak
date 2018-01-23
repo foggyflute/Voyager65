@@ -1405,7 +1405,7 @@ F 3 "" V 4100 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4175 3900 4100 3900
+	3975 3900 4175 3900
 $Comp
 L MX-1U SP2
 U 1 1 5A67E802
@@ -1625,11 +1625,11 @@ ROW2
 Connection ~ 5900 3475
 Text GLabel 6400 3475 2    60   Input ~ 0
 ROW3
-Wire Wire Line
-	3975 4100 4675 4100
-Connection ~ 4100 4100
 Text GLabel 4675 4100 2    60   Input ~ 0
 ROW4
 Wire Wire Line
-	3975 4100 3975 4525
+	4675 4100 4100 4100
+Wire Wire Line
+	3975 3900 3975 4525
+Connection ~ 4100 3900
 $EndSCHEMATC
