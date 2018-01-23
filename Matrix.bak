@@ -1417,19 +1417,8 @@ F 3 "" H 4175 4325 60  0001 C CNN
 	1    4200 4350
 	1    0    0    -1  
 $EndComp
-$Comp
-L D_Small D56
-U 1 1 5A67E808
-P 4100 4625
-F 0 "D56" H 4050 4705 50  0000 L CNN
-F 1 "D_Small" H 3950 4545 50  0000 L CNN
-F 2 "Diodes_SMD:D_SOD-123" V 4100 4625 50  0001 C CNN
-F 3 "" V 4100 4625 50  0001 C CNN
-	1    4100 4625
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	4175 4525 4100 4525
+	3975 4525 4175 4525
 $Sheet
 S 9025 3175 1125 675 
 U 5A683C5B
@@ -1636,4 +1625,11 @@ ROW2
 Connection ~ 5900 3475
 Text GLabel 6400 3475 2    60   Input ~ 0
 ROW3
+Wire Wire Line
+	3975 4100 4675 4100
+Connection ~ 4100 4100
+Text GLabel 4675 4100 2    60   Input ~ 0
+ROW4
+Wire Wire Line
+	3975 4100 3975 4525
 $EndSCHEMATC
