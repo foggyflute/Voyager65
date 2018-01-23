@@ -1566,4 +1566,74 @@ Wire Wire Line
 	7975 1025 7975 2450
 Connection ~ 7975 1825
 Connection ~ 7975 1200
+Text GLabel 7525 1025 1    60   Input ~ 0
+COL13
+Text GLabel 7975 1025 1    60   Input ~ 0
+COL14
+Wire Wire Line
+	1400 1600 8625 1600
+Connection ~ 7250 1600
+Connection ~ 6800 1600
+Connection ~ 6350 1600
+Connection ~ 5900 1600
+Connection ~ 5450 1600
+Connection ~ 5000 1600
+Connection ~ 4550 1600
+Connection ~ 4100 1600
+Connection ~ 3650 1600
+Connection ~ 3200 1600
+Connection ~ 2750 1600
+Connection ~ 2300 1600
+Connection ~ 1850 1600
+Wire Wire Line
+	1400 2225 8625 2225
+Connection ~ 7250 2225
+Connection ~ 6800 2225
+Connection ~ 6350 2225
+Connection ~ 5900 2225
+Connection ~ 5450 2225
+Connection ~ 5000 2225
+Connection ~ 4550 2225
+Connection ~ 4100 2225
+Connection ~ 3650 2225
+Connection ~ 3200 2225
+Connection ~ 2750 2225
+Connection ~ 2300 2225
+Wire Wire Line
+	1400 2850 8625 2850
+Connection ~ 2300 2850
+Connection ~ 2750 2850
+Connection ~ 3200 2850
+Connection ~ 3650 2850
+Connection ~ 4100 2850
+Connection ~ 4550 2850
+Connection ~ 5000 2850
+Connection ~ 5450 2850
+Connection ~ 5900 2850
+Connection ~ 6350 2850
+Connection ~ 6800 2850
+Connection ~ 7250 2850
+Wire Wire Line
+	1400 3475 6400 3475
+Connection ~ 5450 3475
+Connection ~ 5000 3475
+Connection ~ 4550 3475
+Connection ~ 4100 3475
+Connection ~ 3650 3475
+Connection ~ 3200 3475
+Connection ~ 2750 3475
+Connection ~ 2300 3475
+Connection ~ 1850 3475
+Connection ~ 7700 1600
+Text GLabel 8625 1600 2    60   Input ~ 0
+ROW0
+Connection ~ 7700 2225
+Text GLabel 8625 2225 2    60   Input ~ 0
+ROW1
+Connection ~ 7700 2850
+Text GLabel 8625 2850 2    60   Input ~ 0
+ROW2
+Connection ~ 5900 3475
+Text GLabel 6400 3475 2    60   Input ~ 0
+ROW3
 $EndSCHEMATC
