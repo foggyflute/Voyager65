@@ -184,17 +184,6 @@ F 3 "" H 2600 3050 60  0001 C CNN
 	1    2625 3075
 	1    0    0    -1  
 $EndComp
-$Comp
-L D_Small D73
-U 1 1 5A696AC3
-P 2525 3350
-F 0 "D73" H 2475 3430 50  0000 L CNN
-F 1 "D_Small" H 2375 3270 50  0000 L CNN
-F 2 "Diodes_SMD:D_SOD-123" V 2525 3350 50  0001 C CNN
-F 3 "" V 2525 3350 50  0001 C CNN
-	1    2525 3350
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	2600 3250 2525 3250
 $Comp
@@ -207,17 +196,6 @@ F 2 "MX_Alps_Hybrid:MX-1.5U" H 3950 3050 60  0001 C CNN
 F 3 "" H 3950 3050 60  0001 C CNN
 	1    3975 3075
 	1    0    0    -1  
-$EndComp
-$Comp
-L D_Small D75
-U 1 1 5A696AF0
-P 3875 3350
-F 0 "D75" H 3825 3430 50  0000 L CNN
-F 1 "D_Small" H 3725 3270 50  0000 L CNN
-F 2 "Diodes_SMD:D_SOD-123" V 3875 3350 50  0001 C CNN
-F 3 "" V 3875 3350 50  0001 C CNN
-	1    3875 3350
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3950 3250 3875 3250
