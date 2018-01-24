@@ -173,4 +173,22 @@ Connection ~ 2675 2400
 Wire Wire Line
 	2150 2400 2150 3025
 Connection ~ 2225 2400
+Wire Wire Line
+	2500 2200 2500 1700
+Text GLabel 2500 1700 1    60   Input ~ 0
+COL0
+Wire Wire Line
+	2950 2200 2950 1700
+Text GLabel 2950 1700 1    60   Input ~ 0
+COL1
+Wire Wire Line
+	3400 2200 3400 1700
+Text GLabel 3400 1700 1    60   Input ~ 0
+COL2
+Wire Wire Line
+	1700 2600 3125 2600
+Text GLabel 1700 2600 0    60   Input ~ 0
+ROW4
+Connection ~ 2225 2600
+Connection ~ 2675 2600
 $EndSCHEMATC
