@@ -100,7 +100,7 @@ F 3 "" V 2525 2725 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2600 2625 2525 2625
+	2400 2625 2600 2625
 $Comp
 L MX-1U RM4
 U 1 1 5A696A80
@@ -124,7 +124,7 @@ F 3 "" V 2975 2725 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3050 2625 2975 2625
+	2900 2625 3050 2625
 $Comp
 L MX-1U RM6
 U 1 1 5A696A8F
@@ -172,7 +172,7 @@ F 3 "" V 3875 2725 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3950 2625 3875 2625
+	3750 2625 3950 2625
 $Comp
 L MX-1U RM3
 U 1 1 5A696ABC
@@ -184,21 +184,17 @@ F 3 "" H 2600 3050 60  0001 C CNN
 	1    2625 3075
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2600 3250 2525 3250
 $Comp
 L MX-1U RM7
 U 1 1 5A696AE9
 P 3975 3075
 F 0 "RM7" H 3975 3200 60  0000 C CNN
 F 1 "MX-1.5U" H 3975 3125 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1.5U" H 3950 3050 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.5U-FLIPPED" H 3950 3050 60  0001 C CNN
 F 3 "" H 3950 3050 60  0001 C CNN
 	1    3975 3075
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3950 3250 3875 3250
 Text Notes 2100 4425 0    60   ~ 0
 RM2 - 2nd 1U on all-1u, as well  as the first 1.5U on AEK row
 $Comp
@@ -221,7 +217,7 @@ Wire Wire Line
 Text GLabel 3700 2100 1    60   Input ~ 0
 COL13
 Wire Wire Line
-	3250 2425 3250 2100
+	3250 2100 3250 3050
 Text GLabel 3250 2100 1    60   Input ~ 0
 COL12
 Wire Wire Line
@@ -240,4 +236,36 @@ Connection ~ 3425 2825
 Connection ~ 2075 2825
 Text GLabel 1675 2825 0    60   Input ~ 0
 ROW4
+Wire Wire Line
+	2800 3050 2800 2900
+Wire Wire Line
+	2800 2900 2400 2900
+Wire Wire Line
+	2400 2900 2400 2625
+Connection ~ 2525 2625
+Wire Wire Line
+	2600 3250 2850 3250
+Wire Wire Line
+	2850 3250 2850 2425
+Wire Wire Line
+	2850 2425 2800 2425
+Connection ~ 3250 2425
+Wire Wire Line
+	3050 3250 2900 3250
+Wire Wire Line
+	2900 3250 2900 2625
+Connection ~ 2975 2625
+Wire Wire Line
+	4150 3050 4150 2900
+Wire Wire Line
+	4150 2900 3750 2900
+Wire Wire Line
+	3750 2900 3750 2625
+Connection ~ 3875 2625
+Wire Wire Line
+	3950 3250 4200 3250
+Wire Wire Line
+	4200 3250 4200 2425
+Wire Wire Line
+	4200 2425 4150 2425
 $EndSCHEMATC

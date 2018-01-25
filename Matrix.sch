@@ -412,7 +412,7 @@ F 3 "" V 7700 1500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7775 1400 7700 1400
+	7700 1400 8225 1400
 $Comp
 L MX-1U K_TAB1
 U 1 1 5A647EA8
@@ -1084,7 +1084,7 @@ F 3 "" V 7700 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7775 2650 7700 2650
+	7700 2650 8225 2650
 $Comp
 L MX-1U K_SHIFT1
 U 1 1 5A64988F
@@ -1108,7 +1108,7 @@ F 3 "" V 1400 3375 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1475 3275 1400 3275
+	1025 3275 1475 3275
 $Comp
 L MX-1U K_ISO\1
 U 1 1 5A64989C
@@ -1632,4 +1632,13 @@ Wire Wire Line
 Wire Wire Line
 	3975 3900 3975 4525
 Connection ~ 4100 3900
+Wire Wire Line
+	7975 2450 8425 2450
+Connection ~ 7775 2650
+Wire Wire Line
+	7975 1200 8425 1200
+Connection ~ 7775 1400
+Wire Wire Line
+	1675 3075 1225 3075
+Connection ~ 1400 3275
 $EndSCHEMATC
