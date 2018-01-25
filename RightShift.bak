@@ -100,7 +100,7 @@ F 3 "" V 3025 2625 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3100 2525 3025 2525
+	2900 2525 3100 2525
 $Comp
 L MX-1U RS6
 U 1 1 5A6855D5
@@ -161,7 +161,7 @@ $EndComp
 Wire Wire Line
 	3750 2325 3750 1925
 Wire Wire Line
-	3300 2300 3300 1925
+	3300 1925 3300 2650
 Wire Wire Line
 	2850 1925 2850 2800
 Text GLabel 2850 1925 1    60   Input ~ 0
@@ -188,4 +188,24 @@ Wire Wire Line
 Wire Wire Line
 	2400 2850 2400 2525
 Connection ~ 2575 2525
+Wire Wire Line
+	2900 2525 2900 3675
+Wire Wire Line
+	2900 3675 3100 3675
+Connection ~ 3025 2525
+Wire Wire Line
+	3300 2950 3300 2800
+Wire Wire Line
+	3300 2800 2900 2800
+Connection ~ 2900 2800
+Wire Wire Line
+	3300 2650 3350 2650
+Wire Wire Line
+	3350 2650 3350 3475
+Wire Wire Line
+	3350 3150 3100 3150
+Connection ~ 3300 2325
+Wire Wire Line
+	3350 3475 3300 3475
+Connection ~ 3350 3150
 $EndSCHEMATC
