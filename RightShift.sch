@@ -76,7 +76,7 @@ F 3 "" V 2575 2625 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2650 2525 2575 2525
+	2400 2525 2650 2525
 $Comp
 L MX-1U RS5
 U 1 1 5A6855C6
@@ -153,7 +153,7 @@ U 1 1 5A6855F2
 P 3125 3500
 F 0 "RS2" H 3125 3625 60  0000 C CNN
 F 1 "MX-2.75U" H 3125 3550 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-2.75U" H 3100 3475 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2.75U-FLIPPED" H 3100 3475 60  0001 C CNN
 F 3 "" H 3100 3475 60  0001 C CNN
 	1    3125 3500
 	1    0    0    -1  
@@ -163,7 +163,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 2300 3300 1925
 Wire Wire Line
-	2850 2325 2850 1925
+	2850 1925 2850 2800
 Text GLabel 2850 1925 1    60   Input ~ 0
 COL12
 Text GLabel 3300 1925 1    60   Input ~ 0
@@ -176,4 +176,16 @@ Connection ~ 3025 2725
 Connection ~ 2575 2725
 Text GLabel 2125 2725 0    60   Input ~ 0
 ROW3
+Wire Wire Line
+	2850 2800 2650 2800
+Wire Wire Line
+	2650 2800 2650 3150
+Connection ~ 2850 2325
+Wire Wire Line
+	2850 2950 2850 2850
+Wire Wire Line
+	2850 2850 2400 2850
+Wire Wire Line
+	2400 2850 2400 2525
+Connection ~ 2575 2525
 $EndSCHEMATC
