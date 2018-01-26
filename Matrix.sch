@@ -75,8 +75,6 @@ F 3 "" V 1400 1500 50  0001 C CNN
 	1    1400 1500
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1475 1400 1400 1400
 $Comp
 L MX-1U K_-1
 U 1 1 5A646A8C
@@ -99,8 +97,6 @@ F 3 "" V 6350 1500 50  0001 C CNN
 	1    6350 1500
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6425 1400 6350 1400
 $Comp
 L MX-1U K_#1
 U 1 1 5A646B3D
@@ -123,8 +119,6 @@ F 3 "" V 1850 1500 50  0001 C CNN
 	1    1850 1500
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1925 1400 1850 1400
 $Comp
 L MX-1U K_#2
 U 1 1 5A646B4A
@@ -147,8 +141,6 @@ F 3 "" V 2300 1500 50  0001 C CNN
 	1    2300 1500
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2375 1400 2300 1400
 $Comp
 L MX-1U K_#3
 U 1 1 5A646D37
@@ -171,8 +163,6 @@ F 3 "" V 2750 1500 50  0001 C CNN
 	1    2750 1500
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2825 1400 2750 1400
 $Comp
 L MX-1U K_#4
 U 1 1 5A646D44
@@ -195,8 +185,6 @@ F 3 "" V 3200 1500 50  0001 C CNN
 	1    3200 1500
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3275 1400 3200 1400
 $Comp
 L MX-1U K_#5
 U 1 1 5A646D51
@@ -219,8 +207,6 @@ F 3 "" V 3650 1500 50  0001 C CNN
 	1    3650 1500
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3725 1400 3650 1400
 $Comp
 L MX-1U K_#6
 U 1 1 5A646D5E
@@ -243,8 +229,6 @@ F 3 "" V 4100 1500 50  0001 C CNN
 	1    4100 1500
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4175 1400 4100 1400
 $Comp
 L MX-1U K_#7
 U 1 1 5A64755B
@@ -267,8 +251,6 @@ F 3 "" V 4550 1500 50  0001 C CNN
 	1    4550 1500
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4625 1400 4550 1400
 $Comp
 L MX-1U K_#8
 U 1 1 5A647568
@@ -291,8 +273,6 @@ F 3 "" V 5000 1500 50  0001 C CNN
 	1    5000 1500
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5075 1400 5000 1400
 $Comp
 L MX-1U K_#9
 U 1 1 5A647575
@@ -315,8 +295,6 @@ F 3 "" V 5450 1500 50  0001 C CNN
 	1    5450 1500
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5525 1400 5450 1400
 $Comp
 L MX-1U K_#0_1
 U 1 1 5A647582
@@ -339,8 +317,6 @@ F 3 "" V 5900 1500 50  0001 C CNN
 	1    5900 1500
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5975 1400 5900 1400
 $Comp
 L MX-1U K_=1
 U 1 1 5A64758F
@@ -363,8 +339,6 @@ F 3 "" V 6800 1500 50  0001 C CNN
 	1    6800 1500
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6875 1400 6800 1400
 $Comp
 L MX-1U K_DEL1
 U 1 1 5A64759C
@@ -387,8 +361,6 @@ F 3 "" V 7250 1500 50  0001 C CNN
 	1    7250 1500
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7325 1400 7250 1400
 $Comp
 L MX-1U K_BACK1
 U 1 1 5A6475A9
@@ -411,8 +383,6 @@ F 3 "" V 7700 1500 50  0001 C CNN
 	1    7700 1500
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7700 1400 8225 1400
 $Comp
 L MX-1U K_TAB1
 U 1 1 5A647EA8
@@ -435,8 +405,6 @@ F 3 "" V 1400 2125 50  0001 C CNN
 	1    1400 2125
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1475 2025 1400 2025
 $Comp
 L MX-1U K_Q1
 U 1 1 5A647EC2
@@ -459,8 +427,6 @@ F 3 "" V 2300 2125 50  0001 C CNN
 	1    2300 2125
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2375 2025 2300 2025
 $Comp
 L MX-1U K_W1
 U 1 1 5A647ECF
@@ -483,8 +449,6 @@ F 3 "" V 2750 2125 50  0001 C CNN
 	1    2750 2125
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2825 2025 2750 2025
 $Comp
 L MX-1U K_E1
 U 1 1 5A647EDC
@@ -507,8 +471,6 @@ F 3 "" V 3200 2125 50  0001 C CNN
 	1    3200 2125
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3275 2025 3200 2025
 $Comp
 L MX-1U K_R1
 U 1 1 5A647EE9
@@ -531,8 +493,6 @@ F 3 "" V 3650 2125 50  0001 C CNN
 	1    3650 2125
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3725 2025 3650 2025
 $Comp
 L MX-1U K_T1
 U 1 1 5A647EF6
@@ -555,8 +515,6 @@ F 3 "" V 4100 2125 50  0001 C CNN
 	1    4100 2125
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4175 2025 4100 2025
 $Comp
 L MX-1U K_Y1
 U 1 1 5A647F03
@@ -579,8 +537,6 @@ F 3 "" V 4550 2125 50  0001 C CNN
 	1    4550 2125
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4625 2025 4550 2025
 $Comp
 L MX-1U K_U1
 U 1 1 5A647F10
@@ -603,8 +559,6 @@ F 3 "" V 5000 2125 50  0001 C CNN
 	1    5000 2125
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5075 2025 5000 2025
 $Comp
 L MX-1U K_I1
 U 1 1 5A647F1D
@@ -627,8 +581,6 @@ F 3 "" V 5450 2125 50  0001 C CNN
 	1    5450 2125
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5525 2025 5450 2025
 $Comp
 L MX-1U K_O1
 U 1 1 5A647F2A
@@ -651,8 +603,6 @@ F 3 "" V 5900 2125 50  0001 C CNN
 	1    5900 2125
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5975 2025 5900 2025
 $Comp
 L MX-1U K_P1
 U 1 1 5A647F37
@@ -675,8 +625,6 @@ F 3 "" V 6350 2125 50  0001 C CNN
 	1    6350 2125
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6425 2025 6350 2025
 $Comp
 L MX-1U K_[1
 U 1 1 5A647F44
@@ -699,8 +647,6 @@ F 3 "" V 6800 2125 50  0001 C CNN
 	1    6800 2125
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6875 2025 6800 2025
 $Comp
 L MX-1U K_]1
 U 1 1 5A647F51
@@ -723,8 +669,6 @@ F 3 "" V 7250 2125 50  0001 C CNN
 	1    7250 2125
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7325 2025 7250 2025
 $Comp
 L MX-1U K_\1
 U 1 1 5A647F5E
@@ -747,8 +691,6 @@ F 3 "" V 7700 2125 50  0001 C CNN
 	1    7700 2125
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7775 2025 7700 2025
 $Comp
 L MX-1U K_CAPS1
 U 1 1 5A6497CC
@@ -771,8 +713,6 @@ F 3 "" V 1400 2750 50  0001 C CNN
 	1    1400 2750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1225 2650 1475 2650
 $Comp
 L MX-1U K_A1
 U 1 1 5A6497E6
@@ -795,8 +735,6 @@ F 3 "" V 2300 2750 50  0001 C CNN
 	1    2300 2750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2375 2650 2300 2650
 $Comp
 L MX-1U K_S1
 U 1 1 5A6497F3
@@ -819,8 +757,6 @@ F 3 "" V 2750 2750 50  0001 C CNN
 	1    2750 2750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2825 2650 2750 2650
 $Comp
 L MX-1U K_D1
 U 1 1 5A649800
@@ -843,8 +779,6 @@ F 3 "" V 3200 2750 50  0001 C CNN
 	1    3200 2750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3275 2650 3200 2650
 $Comp
 L MX-1U K_F1
 U 1 1 5A64980D
@@ -867,8 +801,6 @@ F 3 "" V 3650 2750 50  0001 C CNN
 	1    3650 2750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3725 2650 3650 2650
 $Comp
 L MX-1U K_G1
 U 1 1 5A64981A
@@ -891,8 +823,6 @@ F 3 "" V 4100 2750 50  0001 C CNN
 	1    4100 2750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4175 2650 4100 2650
 $Comp
 L MX-1U K_H1
 U 1 1 5A649827
@@ -915,8 +845,6 @@ F 3 "" V 4550 2750 50  0001 C CNN
 	1    4550 2750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4625 2650 4550 2650
 $Comp
 L MX-1U K_J1
 U 1 1 5A649834
@@ -939,8 +867,6 @@ F 3 "" V 5000 2750 50  0001 C CNN
 	1    5000 2750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5075 2650 5000 2650
 $Comp
 L MX-1U K_K1
 U 1 1 5A649841
@@ -963,8 +889,6 @@ F 3 "" V 5450 2750 50  0001 C CNN
 	1    5450 2750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5525 2650 5450 2650
 $Comp
 L MX-1U K_L1
 U 1 1 5A64984E
@@ -987,8 +911,6 @@ F 3 "" V 5900 2750 50  0001 C CNN
 	1    5900 2750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5975 2650 5900 2650
 $Comp
 L MX-1U K_;1
 U 1 1 5A64985B
@@ -1011,8 +933,6 @@ F 3 "" V 6350 2750 50  0001 C CNN
 	1    6350 2750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6425 2650 6350 2650
 $Comp
 L MX-1U K_'1
 U 1 1 5A649868
@@ -1035,8 +955,6 @@ F 3 "" V 6800 2750 50  0001 C CNN
 	1    6800 2750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6875 2650 6800 2650
 $Comp
 L MX-1U K_ISO`1
 U 1 1 5A649875
@@ -1059,8 +977,6 @@ F 3 "" V 7250 2750 50  0001 C CNN
 	1    7250 2750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7325 2650 7250 2650
 $Comp
 L MX-1U K_ENTER1
 U 1 1 5A649882
@@ -1083,8 +999,6 @@ F 3 "" V 7700 2750 50  0001 C CNN
 	1    7700 2750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7700 2650 8225 2650
 $Comp
 L MX-1U K_SHIFT1
 U 1 1 5A64988F
@@ -1107,8 +1021,6 @@ F 3 "" V 1400 3375 50  0001 C CNN
 	1    1400 3375
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1025 3275 1475 3275
 $Comp
 L MX-1U K_ISO\1
 U 1 1 5A64989C
@@ -1131,8 +1043,6 @@ F 3 "" V 1850 3375 50  0001 C CNN
 	1    1850 3375
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1925 3275 1850 3275
 $Comp
 L MX-1U K_Z1
 U 1 1 5A6498A9
@@ -1155,8 +1065,6 @@ F 3 "" V 2300 3375 50  0001 C CNN
 	1    2300 3375
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2375 3275 2300 3275
 $Comp
 L MX-1U K_X1
 U 1 1 5A6498B6
@@ -1179,8 +1087,6 @@ F 3 "" V 2750 3375 50  0001 C CNN
 	1    2750 3375
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2825 3275 2750 3275
 $Comp
 L MX-1U K_C1
 U 1 1 5A6498C3
@@ -1203,8 +1109,6 @@ F 3 "" V 3200 3375 50  0001 C CNN
 	1    3200 3375
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3275 3275 3200 3275
 $Comp
 L MX-1U K_V1
 U 1 1 5A6498D0
@@ -1227,8 +1131,6 @@ F 3 "" V 3650 3375 50  0001 C CNN
 	1    3650 3375
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3725 3275 3650 3275
 $Comp
 L MX-1U K_B1
 U 1 1 5A6498DD
@@ -1251,8 +1153,6 @@ F 3 "" V 4100 3375 50  0001 C CNN
 	1    4100 3375
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4175 3275 4100 3275
 $Comp
 L MX-1U K_N1
 U 1 1 5A6498EA
@@ -1275,8 +1175,6 @@ F 3 "" V 4550 3375 50  0001 C CNN
 	1    4550 3375
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4625 3275 4550 3275
 $Comp
 L MX-1U K_M1
 U 1 1 5A6498F7
@@ -1299,8 +1197,6 @@ F 3 "" V 5000 3375 50  0001 C CNN
 	1    5000 3375
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5075 3275 5000 3275
 $Comp
 L MX-1U K_,1
 U 1 1 5A649904
@@ -1323,8 +1219,6 @@ F 3 "" V 5450 3375 50  0001 C CNN
 	1    5450 3375
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5525 3275 5450 3275
 $Comp
 L MX-1U K_.1
 U 1 1 5A649911
@@ -1347,8 +1241,6 @@ F 3 "" V 5900 3375 50  0001 C CNN
 	1    5900 3375
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5975 3275 5900 3275
 $Comp
 L MX-1U K_CAPS2
 U 1 1 5A660657
@@ -1404,8 +1296,6 @@ F 3 "" V 4100 4000 50  0001 C CNN
 	1    4100 4000
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3975 3900 4175 3900
 $Comp
 L MX-1U SP2
 U 1 1 5A67E802
@@ -1417,8 +1307,6 @@ F 3 "" H 4175 4325 60  0001 C CNN
 	1    4200 4350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3975 4525 4175 4525
 $Sheet
 S 9025 3175 1125 675 
 U 5A683C5B
@@ -1448,29 +1336,175 @@ F 3 "" H 8225 1200 60  0001 C CNN
 	1    8250 1225
 	1    0    0    -1  
 $EndComp
+Text GLabel 1675 1025 1    60   Input ~ 0
+COL0
+Text GLabel 2125 1025 1    60   Input ~ 0
+COL1
+Text GLabel 2575 1025 1    60   Input ~ 0
+COL2
+Text GLabel 3025 1025 1    60   Input ~ 0
+COL3
+Text GLabel 3475 1025 1    60   Input ~ 0
+COL4
+Text GLabel 3925 1025 1    60   Input ~ 0
+COL5
+Text GLabel 4375 1025 1    60   Input ~ 0
+COL6
+Text GLabel 4825 1025 1    60   Input ~ 0
+COL7
+Text GLabel 5275 1025 1    60   Input ~ 0
+COL8
+Text GLabel 5725 1025 1    60   Input ~ 0
+COL9
+Text GLabel 6175 1025 1    60   Input ~ 0
+COL10
+Text GLabel 6625 1025 1    60   Input ~ 0
+COL11
+Text GLabel 7075 1025 1    60   Input ~ 0
+COL12
+Text GLabel 7525 1025 1    60   Input ~ 0
+COL13
+Text GLabel 7975 1025 1    60   Input ~ 0
+COL14
+Text GLabel 8625 1600 2    60   Input ~ 0
+ROW0
+Text GLabel 8625 2225 2    60   Input ~ 0
+ROW1
+Text GLabel 8625 2850 2    60   Input ~ 0
+ROW2
+Text GLabel 6400 3475 2    60   Input ~ 0
+ROW3
+Text GLabel 4675 4100 2    60   Input ~ 0
+ROW4
+Text GLabel 1025 1350 0    60   Input ~ 0
+LED-A1
+Wire Wire Line
+	1475 1400 1400 1400
+Wire Wire Line
+	6425 1400 6350 1400
+Wire Wire Line
+	1925 1400 1850 1400
+Wire Wire Line
+	2375 1400 2300 1400
+Wire Wire Line
+	2825 1400 2750 1400
+Wire Wire Line
+	3275 1400 3200 1400
+Wire Wire Line
+	3725 1400 3650 1400
+Wire Wire Line
+	4175 1400 4100 1400
+Wire Wire Line
+	4625 1400 4550 1400
+Wire Wire Line
+	5075 1400 5000 1400
+Wire Wire Line
+	5525 1400 5450 1400
+Wire Wire Line
+	5975 1400 5900 1400
+Wire Wire Line
+	6875 1400 6800 1400
+Wire Wire Line
+	7325 1400 7250 1400
+Wire Wire Line
+	7700 1400 8225 1400
+Wire Wire Line
+	1475 2025 1400 2025
+Wire Wire Line
+	2375 2025 2300 2025
+Wire Wire Line
+	2825 2025 2750 2025
+Wire Wire Line
+	3275 2025 3200 2025
+Wire Wire Line
+	3725 2025 3650 2025
+Wire Wire Line
+	4175 2025 4100 2025
+Wire Wire Line
+	4625 2025 4550 2025
+Wire Wire Line
+	5075 2025 5000 2025
+Wire Wire Line
+	5525 2025 5450 2025
+Wire Wire Line
+	5975 2025 5900 2025
+Wire Wire Line
+	6425 2025 6350 2025
+Wire Wire Line
+	6875 2025 6800 2025
+Wire Wire Line
+	7325 2025 7250 2025
+Wire Wire Line
+	7775 2025 7700 2025
+Wire Wire Line
+	1225 2650 1475 2650
+Wire Wire Line
+	2375 2650 2300 2650
+Wire Wire Line
+	2825 2650 2750 2650
+Wire Wire Line
+	3275 2650 3200 2650
+Wire Wire Line
+	3725 2650 3650 2650
+Wire Wire Line
+	4175 2650 4100 2650
+Wire Wire Line
+	4625 2650 4550 2650
+Wire Wire Line
+	5075 2650 5000 2650
+Wire Wire Line
+	5525 2650 5450 2650
+Wire Wire Line
+	5975 2650 5900 2650
+Wire Wire Line
+	6425 2650 6350 2650
+Wire Wire Line
+	6875 2650 6800 2650
+Wire Wire Line
+	7325 2650 7250 2650
+Wire Wire Line
+	7700 2650 8225 2650
+Wire Wire Line
+	1025 3275 1475 3275
+Wire Wire Line
+	1925 3275 1850 3275
+Wire Wire Line
+	2375 3275 2300 3275
+Wire Wire Line
+	2825 3275 2750 3275
+Wire Wire Line
+	3275 3275 3200 3275
+Wire Wire Line
+	3725 3275 3650 3275
+Wire Wire Line
+	4175 3275 4100 3275
+Wire Wire Line
+	4625 3275 4550 3275
+Wire Wire Line
+	5075 3275 5000 3275
+Wire Wire Line
+	5525 3275 5450 3275
+Wire Wire Line
+	5975 3275 5900 3275
+Wire Wire Line
+	3975 3900 4175 3900
+Wire Wire Line
+	3975 4525 4175 4525
 Wire Wire Line
 	1675 1025 1675 3075
 Connection ~ 1675 2450
 Connection ~ 1675 1825
 Connection ~ 1675 1200
-Text GLabel 1675 1025 1    60   Input ~ 0
-COL0
 Wire Wire Line
 	2125 1025 2125 3075
-Text GLabel 2125 1025 1    60   Input ~ 0
-COL1
 Connection ~ 2125 1200
 Wire Wire Line
 	2575 1025 2575 3075
 Connection ~ 2575 1825
 Connection ~ 2575 2450
 Connection ~ 2575 1200
-Text GLabel 2575 1025 1    60   Input ~ 0
-COL2
 Wire Wire Line
 	3025 1025 3025 3075
-Text GLabel 3025 1025 1    60   Input ~ 0
-COL3
 Connection ~ 3025 1200
 Connection ~ 3025 1825
 Connection ~ 3025 2450
@@ -1479,12 +1513,8 @@ Wire Wire Line
 Connection ~ 3475 2450
 Connection ~ 3475 1825
 Connection ~ 3475 1200
-Text GLabel 3475 1025 1    60   Input ~ 0
-COL4
 Wire Wire Line
 	3925 1025 3925 3075
-Text GLabel 3925 1025 1    60   Input ~ 0
-COL5
 Connection ~ 3925 1200
 Connection ~ 3925 1825
 Connection ~ 3925 2450
@@ -1503,8 +1533,6 @@ Wire Wire Line
 Connection ~ 4375 2450
 Connection ~ 4375 1825
 Connection ~ 4375 1200
-Text GLabel 4375 1025 1    60   Input ~ 0
-COL6
 Wire Wire Line
 	4825 1025 4825 3075
 Connection ~ 4825 1200
@@ -1517,10 +1545,6 @@ Wire Wire Line
 Connection ~ 5275 2450
 Connection ~ 5275 1825
 Connection ~ 5275 1200
-Text GLabel 4825 1025 1    60   Input ~ 0
-COL7
-Text GLabel 5275 1025 1    60   Input ~ 0
-COL8
 Wire Wire Line
 	5725 1025 5725 3075
 Connection ~ 5725 1200
@@ -1531,10 +1555,6 @@ Wire Wire Line
 Connection ~ 6175 2450
 Connection ~ 6175 1825
 Connection ~ 6175 1200
-Text GLabel 5725 1025 1    60   Input ~ 0
-COL9
-Text GLabel 6175 1025 1    60   Input ~ 0
-COL10
 Wire Wire Line
 	6625 1025 6625 2450
 Connection ~ 6625 1200
@@ -1543,10 +1563,6 @@ Wire Wire Line
 	7075 1025 7075 2450
 Connection ~ 7075 1825
 Connection ~ 7075 1200
-Text GLabel 6625 1025 1    60   Input ~ 0
-COL11
-Text GLabel 7075 1025 1    60   Input ~ 0
-COL12
 Wire Wire Line
 	7525 1025 7525 2450
 Connection ~ 7525 1200
@@ -1555,10 +1571,6 @@ Wire Wire Line
 	7975 1025 7975 2450
 Connection ~ 7975 1825
 Connection ~ 7975 1200
-Text GLabel 7525 1025 1    60   Input ~ 0
-COL13
-Text GLabel 7975 1025 1    60   Input ~ 0
-COL14
 Wire Wire Line
 	1400 1600 8625 1600
 Connection ~ 7250 1600
@@ -1614,19 +1626,9 @@ Connection ~ 2750 3475
 Connection ~ 2300 3475
 Connection ~ 1850 3475
 Connection ~ 7700 1600
-Text GLabel 8625 1600 2    60   Input ~ 0
-ROW0
 Connection ~ 7700 2225
-Text GLabel 8625 2225 2    60   Input ~ 0
-ROW1
 Connection ~ 7700 2850
-Text GLabel 8625 2850 2    60   Input ~ 0
-ROW2
 Connection ~ 5900 3475
-Text GLabel 6400 3475 2    60   Input ~ 0
-ROW3
-Text GLabel 4675 4100 2    60   Input ~ 0
-ROW4
 Wire Wire Line
 	4675 4100 4100 4100
 Wire Wire Line
@@ -1641,4 +1643,28 @@ Connection ~ 7775 1400
 Wire Wire Line
 	1675 3075 1225 3075
 Connection ~ 1400 3275
+Wire Wire Line
+	1025 1350 4675 1350
+Connection ~ 1525 1350
+Connection ~ 1975 1350
+Connection ~ 2425 1350
+Connection ~ 2875 1350
+Connection ~ 3325 1350
+Connection ~ 3775 1350
+Connection ~ 4225 1350
+Wire Wire Line
+	1025 1975 4675 1975
+Text GLabel 1025 1975 0    60   Input ~ 0
+LED-A2
+Connection ~ 1525 1975
+Connection ~ 2425 1975
+Connection ~ 2875 1975
+Connection ~ 3325 1975
+Connection ~ 3775 1975
+Connection ~ 4225 1975
+Wire Wire Line
+	900  2600 1525 2600
+Connection ~ 1075 2600
+Text GLabel 900  2600 0    60   Input ~ 0
+LED-A3
 $EndSCHEMATC
