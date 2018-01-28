@@ -725,28 +725,6 @@ F 3 "" V 7300 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED_Small LED5-9
-U 1 1 5A6E1441
-P 5200 3350
-F 0 "LED5-9" H 5075 3475 50  0000 L CNN
-F 1 "LED" H 5150 3250 50  0000 L CNN
-F 2 "" V 5200 3350 50  0001 C CNN
-F 3 "" V 5200 3350 50  0001 C CNN
-	1    5200 3350
-	0    1    1    0   
-$EndComp
-$Comp
-L LED_Small LED5-10
-U 1 1 5A6E1447
-P 5550 3350
-F 0 "LED5-10" H 5425 3475 50  0000 L CNN
-F 1 "LED" H 5500 3250 50  0000 L CNN
-F 2 "" V 5550 3350 50  0001 C CNN
-F 3 "" V 5550 3350 50  0001 C CNN
-	1    5550 3350
-	0    1    1    0   
-$EndComp
-$Comp
 L LED_Small LED5-11
 U 1 1 5A6E144D
 P 5900 3350
@@ -811,6 +789,24 @@ Text GLabel 1850 2900 0    60   Input ~ 0
 LED-A4
 Text GLabel 1850 3250 0    60   Input ~ 0
 LED-A5
+Text GLabel 1850 3625 0    60   Input ~ 0
+LED-A6
+Text GLabel 1850 3725 0    60   Input ~ 0
+LED-A7
+Text GLabel 1850 3825 0    60   Input ~ 0
+LED-A8
+Text GLabel 1850 3925 0    60   Input ~ 0
+LED-A9
+Text GLabel 7750 1850 2    60   Input ~ 0
+LED-B1
+Text GLabel 7750 2200 2    60   Input ~ 0
+LED-B2
+Text GLabel 7750 2550 2    60   Input ~ 0
+LED-B3
+Text GLabel 7750 2900 2    60   Input ~ 0
+LED-B4
+Text GLabel 7750 3250 2    60   Input ~ 0
+LED-B5
 Wire Wire Line
 	1850 1850 4650 1850
 Connection ~ 4300 1850
@@ -905,8 +901,6 @@ Connection ~ 3425 2750
 Wire Wire Line
 	3425 2050 3250 2050
 Connection ~ 3425 2400
-Text GLabel 1850 3625 0    60   Input ~ 0
-LED-A6
 Wire Wire Line
 	3775 3625 1850 3625
 Wire Wire Line
@@ -922,8 +916,6 @@ Connection ~ 3775 2750
 Wire Wire Line
 	3775 2050 3600 2050
 Connection ~ 3775 2400
-Text GLabel 1850 3725 0    60   Input ~ 0
-LED-A7
 Wire Wire Line
 	4125 3725 1850 3725
 Wire Wire Line
@@ -939,8 +931,6 @@ Connection ~ 4125 2750
 Wire Wire Line
 	4125 2050 3950 2050
 Connection ~ 4125 2400
-Text GLabel 1850 3825 0    60   Input ~ 0
-LED-A8
 Wire Wire Line
 	4475 3825 1850 3825
 Wire Wire Line
@@ -956,8 +946,6 @@ Connection ~ 4475 2750
 Wire Wire Line
 	4475 2050 4300 2050
 Connection ~ 4475 2400
-Text GLabel 1850 3925 0    60   Input ~ 0
-LED-A9
 Wire Wire Line
 	4825 3925 1850 3925
 Wire Wire Line
@@ -976,4 +964,163 @@ Connection ~ 4825 2750
 Wire Wire Line
 	4825 2050 4650 2050
 Connection ~ 4825 2400
+Wire Wire Line
+	5025 1850 7750 1850
+Connection ~ 5550 1850
+Connection ~ 5900 1850
+Connection ~ 6250 1850
+Connection ~ 6600 1850
+Connection ~ 6950 1850
+Connection ~ 7300 1850
+Wire Wire Line
+	5200 2200 7750 2200
+Connection ~ 5550 2200
+Connection ~ 5900 2200
+Connection ~ 6250 2200
+Connection ~ 6600 2200
+Connection ~ 6950 2200
+Connection ~ 7300 2200
+Wire Wire Line
+	5200 2550 7750 2550
+Connection ~ 5550 2550
+Connection ~ 5900 2550
+Connection ~ 6250 2550
+Connection ~ 6600 2550
+Connection ~ 6950 2550
+Connection ~ 7300 2550
+Wire Wire Line
+	5200 2900 7750 2900
+Connection ~ 5550 2900
+Connection ~ 5900 2900
+Connection ~ 6250 2900
+Connection ~ 6600 2900
+Connection ~ 6950 2900
+Connection ~ 7300 2900
+Wire Wire Line
+	5900 3250 7750 3250
+Connection ~ 6250 3250
+Connection ~ 6600 3250
+Connection ~ 6950 3250
+Connection ~ 7300 3250
+Wire Wire Line
+	5025 1850 5025 3100
+Wire Wire Line
+	5025 2400 5200 2400
+Connection ~ 5200 1850
+Wire Wire Line
+	5025 2750 5200 2750
+Connection ~ 5025 2400
+Wire Wire Line
+	5025 3100 5200 3100
+Connection ~ 5025 2750
+Wire Wire Line
+	5375 2050 5375 3100
+Wire Wire Line
+	5375 2050 5200 2050
+Connection ~ 5375 2200
+Wire Wire Line
+	5375 2750 5550 2750
+Wire Wire Line
+	5375 3100 5550 3100
+Connection ~ 5375 2750
+Wire Wire Line
+	5725 2050 5725 3450
+Wire Wire Line
+	5725 2400 5550 2400
+Connection ~ 5725 2550
+Wire Wire Line
+	5725 2050 5550 2050
+Connection ~ 5725 2400
+Wire Wire Line
+	5725 3100 5900 3100
+Wire Wire Line
+	5725 3450 5900 3450
+Connection ~ 5725 3100
+Wire Wire Line
+	6075 2050 6075 3450
+Wire Wire Line
+	6075 2750 5900 2750
+Connection ~ 6075 2900
+Wire Wire Line
+	6075 2400 5900 2400
+Connection ~ 6075 2750
+Wire Wire Line
+	6075 2050 5900 2050
+Connection ~ 6075 2400
+Wire Wire Line
+	6075 3450 6250 3450
+Wire Wire Line
+	6250 2050 6425 2050
+Wire Wire Line
+	6425 2050 6425 3250
+Connection ~ 6425 3250
+Wire Wire Line
+	6250 3100 6425 3100
+Connection ~ 6425 3100
+Wire Wire Line
+	6425 2750 6250 2750
+Connection ~ 6425 2750
+Wire Wire Line
+	6250 2400 6425 2400
+Connection ~ 6425 2400
+Wire Wire Line
+	6600 3100 6775 3100
+Wire Wire Line
+	6775 2050 6775 3600
+Wire Wire Line
+	6775 2750 6600 2750
+Wire Wire Line
+	6775 3450 6600 3450
+Connection ~ 6775 3100
+Wire Wire Line
+	6775 2400 6600 2400
+Connection ~ 6775 2750
+Wire Wire Line
+	6600 2050 6775 2050
+Connection ~ 6775 2400
+Wire Wire Line
+	6950 2050 7125 2050
+Wire Wire Line
+	7125 2050 7125 3700
+Wire Wire Line
+	7125 2400 6950 2400
+Wire Wire Line
+	7125 2750 6950 2750
+Connection ~ 7125 2400
+Wire Wire Line
+	7125 3100 6950 3100
+Connection ~ 7125 2750
+Wire Wire Line
+	7125 3450 6950 3450
+Connection ~ 7125 3100
+Wire Wire Line
+	7300 2050 7475 2050
+Wire Wire Line
+	7475 2050 7475 3800
+Wire Wire Line
+	7475 2400 7300 2400
+Wire Wire Line
+	7475 2750 7300 2750
+Connection ~ 7475 2400
+Wire Wire Line
+	7475 3100 7300 3100
+Connection ~ 7475 2750
+Wire Wire Line
+	7475 3450 7300 3450
+Connection ~ 7475 3100
+Wire Wire Line
+	6775 3600 7750 3600
+Connection ~ 6775 3450
+Text GLabel 7750 3600 2    60   Input ~ 0
+LED-B6
+Text GLabel 7750 3700 2    60   Input ~ 0
+LED-B7
+Wire Wire Line
+	7125 3700 7750 3700
+Connection ~ 7125 3450
+Text GLabel 7750 3800 2    60   Input ~ 0
+LED-B8
+Wire Wire Line
+	7475 3800 7750 3800
+Connection ~ 7475 3450
 $EndSCHEMATC

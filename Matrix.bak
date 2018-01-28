@@ -1422,7 +1422,7 @@ Wire Wire Line
 Wire Wire Line
 	7325 2025 7250 2025
 Wire Wire Line
-	7775 2025 7700 2025
+	7425 2025 7775 2025
 Wire Wire Line
 	1225 2650 1475 2650
 Wire Wire Line
@@ -1654,4 +1654,17 @@ Connection ~ 2425 3225
 Connection ~ 3325 3225
 Connection ~ 3775 3225
 Connection ~ 4225 3225
+Wire Wire Line
+	7425 2025 7425 2300
+Wire Wire Line
+	7425 2300 7325 2300
+Wire Wire Line
+	7325 2300 7325 2650
+Connection ~ 7700 2025
+Wire Wire Line
+	7975 1825 7575 1825
+Wire Wire Line
+	7575 1825 7575 2450
+Wire Wire Line
+	7575 2450 7525 2450
 $EndSCHEMATC
