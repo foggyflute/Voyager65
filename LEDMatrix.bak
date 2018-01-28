@@ -1063,4 +1063,64 @@ Connection ~ 6425 2750
 Wire Wire Line
 	6250 2400 6425 2400
 Connection ~ 6425 2400
+Wire Wire Line
+	6600 3100 6775 3100
+Wire Wire Line
+	6775 2050 6775 3600
+Wire Wire Line
+	6775 2750 6600 2750
+Wire Wire Line
+	6775 3450 6600 3450
+Connection ~ 6775 3100
+Wire Wire Line
+	6775 2400 6600 2400
+Connection ~ 6775 2750
+Wire Wire Line
+	6600 2050 6775 2050
+Connection ~ 6775 2400
+Wire Wire Line
+	6950 2050 7125 2050
+Wire Wire Line
+	7125 2050 7125 3700
+Wire Wire Line
+	7125 2400 6950 2400
+Wire Wire Line
+	7125 2750 6950 2750
+Connection ~ 7125 2400
+Wire Wire Line
+	7125 3100 6950 3100
+Connection ~ 7125 2750
+Wire Wire Line
+	7125 3450 6950 3450
+Connection ~ 7125 3100
+Wire Wire Line
+	7300 2050 7475 2050
+Wire Wire Line
+	7475 2050 7475 3800
+Wire Wire Line
+	7475 2400 7300 2400
+Wire Wire Line
+	7475 2750 7300 2750
+Connection ~ 7475 2400
+Wire Wire Line
+	7475 3100 7300 3100
+Connection ~ 7475 2750
+Wire Wire Line
+	7475 3450 7300 3450
+Connection ~ 7475 3100
+Wire Wire Line
+	6775 3600 7750 3600
+Connection ~ 6775 3450
+Text GLabel 7750 3600 2    60   Input ~ 0
+LED-B6
+Text GLabel 7750 3700 2    60   Input ~ 0
+LED-B7
+Wire Wire Line
+	7125 3700 7750 3700
+Connection ~ 7125 3450
+Text GLabel 7750 3800 2    60   Input ~ 0
+LED-B8
+Wire Wire Line
+	7475 3800 7750 3800
+Connection ~ 7475 3450
 $EndSCHEMATC
