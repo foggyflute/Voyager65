@@ -1376,12 +1376,6 @@ Text GLabel 6400 3475 2    60   Input ~ 0
 ROW3
 Text GLabel 4675 4100 2    60   Input ~ 0
 ROW4
-Text GLabel 1025 1350 0    60   Input ~ 0
-LED-A1
-Text GLabel 1025 1975 0    60   Input ~ 0
-LED-A2
-Text GLabel 900  2600 0    60   Input ~ 0
-LED-A3
 Wire Wire Line
 	1475 1400 1400 1400
 Wire Wire Line
@@ -1647,8 +1641,6 @@ Connection ~ 7775 1400
 Wire Wire Line
 	1675 3075 1225 3075
 Connection ~ 1400 3275
-Wire Wire Line
-	1025 1350 4675 1350
 Connection ~ 1525 1350
 Connection ~ 1975 1350
 Connection ~ 2425 1350
@@ -1656,16 +1648,12 @@ Connection ~ 2875 1350
 Connection ~ 3325 1350
 Connection ~ 3775 1350
 Connection ~ 4225 1350
-Wire Wire Line
-	1025 1975 4675 1975
 Connection ~ 1525 1975
 Connection ~ 2425 1975
 Connection ~ 2875 1975
 Connection ~ 3325 1975
 Connection ~ 3775 1975
 Connection ~ 4225 1975
-Wire Wire Line
-	900  2600 4675 2600
 Connection ~ 1075 2600
 Connection ~ 1525 2600
 Connection ~ 2425 2600
@@ -1673,11 +1661,7 @@ Connection ~ 2875 2600
 Connection ~ 3325 2600
 Connection ~ 3775 2600
 Connection ~ 4225 2600
-Wire Wire Line
-	900  3225 4675 3225
 Connection ~ 1075 3225
-Text GLabel 900  3225 0    60   Input ~ 0
-LED-A4
 Connection ~ 1525 3225
 Connection ~ 1975 3225
 Connection ~ 2875 3225
@@ -1685,8 +1669,4 @@ Connection ~ 2425 3225
 Connection ~ 3325 3225
 Connection ~ 3775 3225
 Connection ~ 4225 3225
-Wire Wire Line
-	4225 3850 3725 3850
-Text GLabel 3725 3850 0    60   Input ~ 0
-LED-A5
 $EndSCHEMATC

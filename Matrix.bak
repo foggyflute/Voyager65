@@ -1685,4 +1685,8 @@ Connection ~ 2425 3225
 Connection ~ 3325 3225
 Connection ~ 3775 3225
 Connection ~ 4225 3225
+Wire Wire Line
+	4225 3850 3725 3850
+Text GLabel 3725 3850 0    60   Input ~ 0
+LED-A5
 $EndSCHEMATC

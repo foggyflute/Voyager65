@@ -194,4 +194,16 @@ Connection ~ 2675 2600
 Connection ~ 2500 2200
 Connection ~ 2950 2200
 Connection ~ 3400 2200
+Wire Wire Line
+	1700 2350 3250 2350
+Connection ~ 2800 2350
+Connection ~ 2350 2350
+Text GLabel 1700 2350 0    60   Input ~ 0
+LED-A5
+Wire Wire Line
+	2350 2350 2350 2975
+Wire Wire Line
+	2800 2975 2800 2350
+Wire Wire Line
+	3250 2350 3250 2975
 $EndSCHEMATC
