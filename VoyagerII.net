@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/Ryota/Documents/GitHub/VoyagerII/VoyagerII.sch)
-    (date "1/27/2018 11:31:58 PM")
+    (date "1/27/2018 11:33:50 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
