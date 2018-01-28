@@ -153,17 +153,6 @@ F 3 "" V 2200 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED_Small LED2-2
-U 1 1 5A6DDFB0
-P 2550 2300
-F 0 "LED2-2" H 2425 2425 50  0000 L CNN
-F 1 "LED" H 2500 2200 50  0000 L CNN
-F 2 "" V 2550 2300 50  0001 C CNN
-F 3 "" V 2550 2300 50  0001 C CNN
-	1    2550 2300
-	0    1    1    0   
-$EndComp
-$Comp
 L LED_Small LED2-3
 U 1 1 5A6DDFF2
 P 2900 2300
@@ -241,17 +230,6 @@ F 3 "" V 2200 2650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED_Small LED3-2
-U 1 1 5A6DEAE0
-P 2550 2650
-F 0 "LED3-2" H 2425 2775 50  0000 L CNN
-F 1 "LED" H 2500 2550 50  0000 L CNN
-F 2 "" V 2550 2650 50  0001 C CNN
-F 3 "" V 2550 2650 50  0001 C CNN
-	1    2550 2650
-	0    1    1    0   
-$EndComp
-$Comp
 L LED_Small LED3-3
 U 1 1 5A6DEB3C
 P 2900 2650
@@ -326,17 +304,6 @@ F 1 "LED" H 2150 2900 50  0000 L CNN
 F 2 "" V 2200 3000 50  0001 C CNN
 F 3 "" V 2200 3000 50  0001 C CNN
 	1    2200 3000
-	0    1    1    0   
-$EndComp
-$Comp
-L LED_Small LED4-2
-U 1 1 5A6DF5B8
-P 2550 3000
-F 0 "LED4-2" H 2425 3125 50  0000 L CNN
-F 1 "LED" H 2500 2900 50  0000 L CNN
-F 2 "" V 2550 3000 50  0001 C CNN
-F 3 "" V 2550 3000 50  0001 C CNN
-	1    2550 3000
 	0    1    1    0   
 $EndComp
 $Comp
@@ -436,50 +403,6 @@ F 1 "LED" H 2850 3250 50  0000 L CNN
 F 2 "" V 2900 3350 50  0001 C CNN
 F 3 "" V 2900 3350 50  0001 C CNN
 	1    2900 3350
-	0    1    1    0   
-$EndComp
-$Comp
-L LED_Small LED5-4
-U 1 1 5A6E0565
-P 3250 3350
-F 0 "LED5-4" H 3125 3475 50  0000 L CNN
-F 1 "LED" H 3200 3250 50  0000 L CNN
-F 2 "" V 3250 3350 50  0001 C CNN
-F 3 "" V 3250 3350 50  0001 C CNN
-	1    3250 3350
-	0    1    1    0   
-$EndComp
-$Comp
-L LED_Small LED5-5
-U 1 1 5A6E09C3
-P 3600 3350
-F 0 "LED5-5" H 3475 3475 50  0000 L CNN
-F 1 "LED" H 3550 3250 50  0000 L CNN
-F 2 "" V 3600 3350 50  0001 C CNN
-F 3 "" V 3600 3350 50  0001 C CNN
-	1    3600 3350
-	0    1    1    0   
-$EndComp
-$Comp
-L LED_Small LED5-6
-U 1 1 5A6E09C9
-P 3950 3350
-F 0 "LED5-6" H 3825 3475 50  0000 L CNN
-F 1 "LED" H 3900 3250 50  0000 L CNN
-F 2 "" V 3950 3350 50  0001 C CNN
-F 3 "" V 3950 3350 50  0001 C CNN
-	1    3950 3350
-	0    1    1    0   
-$EndComp
-$Comp
-L LED_Small LED5-7
-U 1 1 5A6E09CF
-P 4300 3350
-F 0 "LED5-7" H 4175 3475 50  0000 L CNN
-F 1 "LED" H 4250 3250 50  0000 L CNN
-F 2 "" V 4300 3350 50  0001 C CNN
-F 3 "" V 4300 3350 50  0001 C CNN
-	1    4300 3350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -878,4 +801,179 @@ F 3 "" V 7300 3350 50  0001 C CNN
 	1    7300 3350
 	0    1    1    0   
 $EndComp
+Text GLabel 1850 1850 0    60   Input ~ 0
+LED-A1
+Text GLabel 1850 2200 0    60   Input ~ 0
+LED-A2
+Text GLabel 1850 2550 0    60   Input ~ 0
+LED-A3
+Text GLabel 1850 2900 0    60   Input ~ 0
+LED-A4
+Text GLabel 1850 3250 0    60   Input ~ 0
+LED-A5
+Wire Wire Line
+	1850 1850 4650 1850
+Connection ~ 4300 1850
+Connection ~ 3950 1850
+Connection ~ 3600 1850
+Connection ~ 3250 1850
+Connection ~ 2900 1850
+Connection ~ 2550 1850
+Connection ~ 2200 1850
+Wire Wire Line
+	1850 2200 4650 2200
+Connection ~ 4300 2200
+Connection ~ 3950 2200
+Connection ~ 3600 2200
+Connection ~ 3250 2200
+Connection ~ 2900 2200
+Connection ~ 2200 2200
+Wire Wire Line
+	1850 2550 4650 2550
+Connection ~ 4300 2550
+Connection ~ 3950 2550
+Connection ~ 3600 2550
+Connection ~ 3250 2550
+Connection ~ 2900 2550
+Connection ~ 2200 2550
+Wire Wire Line
+	1850 2900 4650 2900
+Connection ~ 4300 2900
+Connection ~ 3950 2900
+Connection ~ 3600 2900
+Connection ~ 3250 2900
+Connection ~ 2900 2900
+Connection ~ 2200 2900
+Wire Wire Line
+	1850 3250 4650 3250
+Connection ~ 2900 3250
+Connection ~ 2550 3250
+Connection ~ 2200 3250
+Wire Wire Line
+	2025 1850 2025 3450
+Wire Wire Line
+	2025 2400 2200 2400
+Connection ~ 2025 1850
+Wire Wire Line
+	2025 2750 2200 2750
+Connection ~ 2025 2400
+Wire Wire Line
+	2025 3100 2200 3100
+Connection ~ 2025 2750
+Wire Wire Line
+	2025 3450 2200 3450
+Connection ~ 2025 3100
+Wire Wire Line
+	2200 2050 2375 2050
+Wire Wire Line
+	2375 2050 2375 3450
+Connection ~ 2375 2200
+Wire Wire Line
+	2375 3450 2550 3450
+Wire Wire Line
+	2725 2050 2725 3450
+Wire Wire Line
+	2725 2050 2550 2050
+Connection ~ 2725 2550
+Wire Wire Line
+	2725 3100 2900 3100
+Wire Wire Line
+	2725 3450 2900 3450
+Connection ~ 2725 3100
+Wire Wire Line
+	3075 2050 3075 2900
+Wire Wire Line
+	3075 2750 2900 2750
+Connection ~ 3075 2900
+Wire Wire Line
+	3075 2400 2900 2400
+Connection ~ 3075 2750
+Wire Wire Line
+	3075 2050 2900 2050
+Connection ~ 3075 2400
+Wire Wire Line
+	3425 2050 3425 3250
+Wire Wire Line
+	3425 3100 3250 3100
+Connection ~ 3425 3250
+Wire Wire Line
+	3425 2750 3250 2750
+Connection ~ 3425 3100
+Wire Wire Line
+	3425 2400 3250 2400
+Connection ~ 3425 2750
+Wire Wire Line
+	3425 2050 3250 2050
+Connection ~ 3425 2400
+Text GLabel 1850 3625 0    60   Input ~ 0
+LED-A6
+Wire Wire Line
+	3775 3625 1850 3625
+Wire Wire Line
+	3775 2050 3775 3625
+Wire Wire Line
+	3775 3100 3600 3100
+Wire Wire Line
+	3775 2750 3600 2750
+Connection ~ 3775 3100
+Wire Wire Line
+	3775 2400 3600 2400
+Connection ~ 3775 2750
+Wire Wire Line
+	3775 2050 3600 2050
+Connection ~ 3775 2400
+Text GLabel 1850 3725 0    60   Input ~ 0
+LED-A7
+Wire Wire Line
+	4125 3725 1850 3725
+Wire Wire Line
+	4125 2050 4125 3725
+Wire Wire Line
+	4125 3100 3950 3100
+Wire Wire Line
+	4125 2750 3950 2750
+Connection ~ 4125 3100
+Wire Wire Line
+	4125 2400 3950 2400
+Connection ~ 4125 2750
+Wire Wire Line
+	4125 2050 3950 2050
+Connection ~ 4125 2400
+Text GLabel 1850 3825 0    60   Input ~ 0
+LED-A8
+Wire Wire Line
+	4475 3825 1850 3825
+Wire Wire Line
+	4475 2050 4475 3825
+Wire Wire Line
+	4475 3100 4300 3100
+Wire Wire Line
+	4475 2750 4300 2750
+Connection ~ 4475 3100
+Wire Wire Line
+	4475 2400 4300 2400
+Connection ~ 4475 2750
+Wire Wire Line
+	4475 2050 4300 2050
+Connection ~ 4475 2400
+Text GLabel 1850 3925 0    60   Input ~ 0
+LED-A9
+Wire Wire Line
+	4825 3925 1850 3925
+Wire Wire Line
+	4825 2050 4825 3925
+Wire Wire Line
+	4825 3450 4650 3450
+Wire Wire Line
+	4825 3100 4650 3100
+Connection ~ 4825 3450
+Wire Wire Line
+	4825 2750 4650 2750
+Connection ~ 4825 3100
+Wire Wire Line
+	4825 2400 4650 2400
+Connection ~ 4825 2750
+Wire Wire Line
+	4825 2050 4650 2050
+Connection ~ 4825 2400
 $EndSCHEMATC
