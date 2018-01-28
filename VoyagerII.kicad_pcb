@@ -463,7 +463,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer B.Cu) (tedit 58AA8463) (tstamp 5A62ACD8)
-    (at 130.683 135.128 180)
+    (at 130.556 134.493 180)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5A6248D2)
@@ -535,7 +535,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer B.Cu) (tedit 58AA8463) (tstamp 5A62ACE4)
-    (at 137.795 139.065)
+    (at 138.049 138.303)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5A626D3A)
@@ -643,7 +643,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer B.Cu) (tedit 58AA8463) (tstamp 5A62ACF6)
-    (at 135.509 135.128)
+    (at 135.255 134.493)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5A626DD8)
@@ -893,7 +893,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-23 (layer B.Cu) (tedit 58CE4E7E) (tstamp 5A62AD41)
-    (at 131.460875 131.572 180)
+    (at 130.556 130.683 180)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5A6246D3)
