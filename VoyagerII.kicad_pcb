@@ -8261,7 +8261,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7C5E)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E1381)
     (fp_text reference LED1-9 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8284,7 +8284,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7C64)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E1387)
     (fp_text reference LED1-10 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8307,7 +8307,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7C6A)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E138D)
     (fp_text reference LED1-11 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8330,7 +8330,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7C70)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E1393)
     (fp_text reference LED1-12 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8353,7 +8353,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7C76)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E1399)
     (fp_text reference LED1-13 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8376,7 +8376,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7C7C)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E139F)
     (fp_text reference LED1-14 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8399,7 +8399,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7C82)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E13A5)
     (fp_text reference LED1-15 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8583,7 +8583,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7CB2)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E13B1)
     (fp_text reference LED2-9 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8606,7 +8606,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7CB8)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E13B7)
     (fp_text reference LED2-10 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8629,7 +8629,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7CBE)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E13BD)
     (fp_text reference LED2-11 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8652,7 +8652,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7CC4)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E13C3)
     (fp_text reference LED2-12 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8675,7 +8675,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7CCA)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E13C9)
     (fp_text reference LED2-13 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8698,7 +8698,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7CD0)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E13CF)
     (fp_text reference LED2-14 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8721,7 +8721,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7CD6)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E13D5)
     (fp_text reference LED2-15 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8905,7 +8905,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7D06)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E13E1)
     (fp_text reference LED3-9 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8928,7 +8928,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7D0C)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E13E7)
     (fp_text reference LED3-10 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8951,7 +8951,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7D12)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E13ED)
     (fp_text reference LED3-11 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8974,7 +8974,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7D18)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E13F3)
     (fp_text reference LED3-12 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8997,7 +8997,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7D1E)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E13F9)
     (fp_text reference LED3-13 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9020,7 +9020,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7D24)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E13FF)
     (fp_text reference LED3-14 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9043,7 +9043,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7D2A)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E1405)
     (fp_text reference LED3-15 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9227,7 +9227,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7D5A)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E1411)
     (fp_text reference LED4-9 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9250,7 +9250,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7D60)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E1417)
     (fp_text reference LED4-10 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9273,7 +9273,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7D66)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E141D)
     (fp_text reference LED4-11 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9296,7 +9296,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7D6C)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E1423)
     (fp_text reference LED4-12 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9319,7 +9319,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7D72)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E1429)
     (fp_text reference LED4-13 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9342,7 +9342,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7D78)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E142F)
     (fp_text reference LED4-14 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9365,7 +9365,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7D7E)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E1435)
     (fp_text reference LED4-15 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9480,7 +9480,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7D9C)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E144D)
     (fp_text reference LED5-11 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9503,7 +9503,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7DA2)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E1453)
     (fp_text reference LED5-12 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9526,7 +9526,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7DA8)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E1459)
     (fp_text reference LED5-13 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9549,7 +9549,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7DAE)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E145F)
     (fp_text reference LED5-14 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9572,7 +9572,7 @@
   )
 
   (module MX_Alps_Hybrid:LED (layer F.Cu) (tedit 5A6D783F) (tstamp 5A6D7DB4)
-    (at 0 0)
+    (at 3.571875 64.29375)
     (path /5A6DA159/5A6E1465)
     (fp_text reference LED5-15 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
