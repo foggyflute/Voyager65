@@ -905,4 +905,75 @@ Connection ~ 3425 2750
 Wire Wire Line
 	3425 2050 3250 2050
 Connection ~ 3425 2400
+Text GLabel 1850 3625 0    60   Input ~ 0
+LED-A6
+Wire Wire Line
+	3775 3625 1850 3625
+Wire Wire Line
+	3775 2050 3775 3625
+Wire Wire Line
+	3775 3100 3600 3100
+Wire Wire Line
+	3775 2750 3600 2750
+Connection ~ 3775 3100
+Wire Wire Line
+	3775 2400 3600 2400
+Connection ~ 3775 2750
+Wire Wire Line
+	3775 2050 3600 2050
+Connection ~ 3775 2400
+Text GLabel 1850 3725 0    60   Input ~ 0
+LED-A7
+Wire Wire Line
+	4125 3725 1850 3725
+Wire Wire Line
+	4125 2050 4125 3725
+Wire Wire Line
+	4125 3100 3950 3100
+Wire Wire Line
+	4125 2750 3950 2750
+Connection ~ 4125 3100
+Wire Wire Line
+	4125 2400 3950 2400
+Connection ~ 4125 2750
+Wire Wire Line
+	4125 2050 3950 2050
+Connection ~ 4125 2400
+Text GLabel 1850 3825 0    60   Input ~ 0
+LED-A8
+Wire Wire Line
+	4475 3825 1850 3825
+Wire Wire Line
+	4475 2050 4475 3825
+Wire Wire Line
+	4475 3100 4300 3100
+Wire Wire Line
+	4475 2750 4300 2750
+Connection ~ 4475 3100
+Wire Wire Line
+	4475 2400 4300 2400
+Connection ~ 4475 2750
+Wire Wire Line
+	4475 2050 4300 2050
+Connection ~ 4475 2400
+Text GLabel 1850 3925 0    60   Input ~ 0
+LED-A9
+Wire Wire Line
+	4825 3925 1850 3925
+Wire Wire Line
+	4825 2050 4825 3925
+Wire Wire Line
+	4825 3450 4650 3450
+Wire Wire Line
+	4825 3100 4650 3100
+Connection ~ 4825 3450
+Wire Wire Line
+	4825 2750 4650 2750
+Connection ~ 4825 3100
+Wire Wire Line
+	4825 2400 4650 2400
+Connection ~ 4825 2750
+Wire Wire Line
+	4825 2050 4650 2050
+Connection ~ 4825 2400
 $EndSCHEMATC

@@ -967,17 +967,6 @@ F 3 "" H 7325 2450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Small D42
-U 1 1 5A64987B
-P 7250 2750
-F 0 "D42" H 7200 2830 50  0000 L CNN
-F 1 "D_Small" H 7100 2670 50  0000 L CNN
-F 2 "Diodes_SMD:D_SOD-123" V 7250 2750 50  0001 C CNN
-F 3 "" V 7250 2750 50  0001 C CNN
-	1    7250 2750
-	0    -1   -1   0   
-$EndComp
-$Comp
 L MX-1U K_ENTER1
 U 1 1 5A649882
 P 7800 2475
@@ -1433,7 +1422,7 @@ Wire Wire Line
 Wire Wire Line
 	7325 2025 7250 2025
 Wire Wire Line
-	7775 2025 7700 2025
+	7425 2025 7775 2025
 Wire Wire Line
 	1225 2650 1475 2650
 Wire Wire Line
@@ -1458,8 +1447,6 @@ Wire Wire Line
 	6425 2650 6350 2650
 Wire Wire Line
 	6875 2650 6800 2650
-Wire Wire Line
-	7325 2650 7250 2650
 Wire Wire Line
 	7700 2650 8225 2650
 Wire Wire Line
@@ -1562,9 +1549,8 @@ Wire Wire Line
 Connection ~ 7075 1825
 Connection ~ 7075 1200
 Wire Wire Line
-	7525 1025 7525 2450
+	7525 1025 7525 1825
 Connection ~ 7525 1200
-Connection ~ 7525 1825
 Wire Wire Line
 	7975 1025 7975 2450
 Connection ~ 7975 1825
@@ -1611,7 +1597,6 @@ Connection ~ 5450 2850
 Connection ~ 5900 2850
 Connection ~ 6350 2850
 Connection ~ 6800 2850
-Connection ~ 7250 2850
 Wire Wire Line
 	1400 3475 6400 3475
 Connection ~ 5450 3475
@@ -1669,4 +1654,17 @@ Connection ~ 2425 3225
 Connection ~ 3325 3225
 Connection ~ 3775 3225
 Connection ~ 4225 3225
+Wire Wire Line
+	7425 2025 7425 2300
+Wire Wire Line
+	7425 2300 7325 2300
+Wire Wire Line
+	7325 2300 7325 2650
+Connection ~ 7700 2025
+Wire Wire Line
+	7975 1825 7575 1825
+Wire Wire Line
+	7575 1825 7575 2450
+Wire Wire Line
+	7575 2450 7525 2450
 $EndSCHEMATC
