@@ -38,6 +38,7 @@ LIBS:MX_Alps_Hybrids
 LIBS:ws2812b
 LIBS:Tag-Connect
 LIBS:ai03-locallib
+LIBS:logic
 LIBS:VoyagerII-cache
 EELAYER 25 0
 EELAYER END
@@ -185,7 +186,7 @@ F 3 "" V 3725 6225 60  0000 C CNN
 	1    3775 6225
 	1    0    0    -1  
 $EndComp
-Text GLabel 2775 1325 1    60   Input ~ 0
+Text GLabel 1775 950  0    60   Input ~ 0
 RGBLED
 $Comp
 L GND #PWR021
@@ -573,6 +574,43 @@ F 1 "500" H 2805 1385 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" H 2775 1425 50  0001 C CNN
 F 3 "" H 2775 1425 50  0001 C CNN
 	1    2775 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LVC1G34 U?
+U 1 1 5A6EE85D
+P 2225 950
+F 0 "U?" H 2325 1100 50  0000 C CNN
+F 1 "74LVC1G34" H 2425 800 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-353_SC-70-5" H 2225 950 50  0001 C CNN
+F 3 "" H 2225 950 50  0001 C CNN
+	1    2225 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2675 950  2775 950 
+Wire Wire Line
+	2775 950  2775 1325
+$Comp
+L +5V #PWR?
+U 1 1 5A6EEA29
+P 2175 750
+F 0 "#PWR?" H 2175 600 50  0001 C CNN
+F 1 "+5V" H 2175 890 50  0000 C CNN
+F 2 "" H 2175 750 50  0001 C CNN
+F 3 "" H 2175 750 50  0001 C CNN
+	1    2175 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A6EEA71
+P 2175 1150
+F 0 "#PWR?" H 2175 900 50  0001 C CNN
+F 1 "GND" H 2175 1000 50  0000 C CNN
+F 2 "" H 2175 1150 50  0001 C CNN
+F 3 "" H 2175 1150 50  0001 C CNN
+	1    2175 1150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

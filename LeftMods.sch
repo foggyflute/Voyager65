@@ -38,6 +38,7 @@ LIBS:MX_Alps_Hybrids
 LIBS:ws2812b
 LIBS:Tag-Connect
 LIBS:ai03-locallib
+LIBS:logic
 LIBS:VoyagerII-cache
 EELAYER 25 0
 EELAYER END
