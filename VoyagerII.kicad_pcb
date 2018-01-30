@@ -2,7 +2,7 @@
 
   (general
     (links 666)
-    (no_connects 1)
+    (no_connects 0)
     (area 0 0 0 0)
     (thickness 1.6)
     (drawings 13)
@@ -38,7 +38,7 @@
 
   (setup
     (last_trace_width 0.254)
-    (trace_clearance 0.254)
+    (trace_clearance 0.2032)
     (zone_clearance 0.381)
     (zone_45_only no)
     (trace_min 0.2)
@@ -236,7 +236,7 @@
   (net 142 "Net-(R5-Pad1)")
 
   (net_class Default "This is the default net class."
-    (clearance 0.254)
+    (clearance 0.2032)
     (trace_width 0.254)
     (via_dia 0.6)
     (via_drill 0.4)
@@ -383,7 +383,7 @@
   )
 
   (net_class Power ""
-    (clearance 0.254)
+    (clearance 0.2032)
     (trace_width 0.381)
     (via_dia 0.6)
     (via_drill 0.4)
