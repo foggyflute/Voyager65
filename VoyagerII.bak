@@ -404,17 +404,6 @@ Text GLabel 4575 2600 2    60   Input ~ 0
 COL13
 Text GLabel 4575 2500 2    60   Input ~ 0
 COL14
-$Comp
-L GND #PWR016
-U 1 1 5A62D560
-P 2775 1200
-F 0 "#PWR016" H 2775 950 50  0001 C CNN
-F 1 "GND" H 2775 1050 50  0000 C CNN
-F 2 "" H 2775 1200 50  0001 C CNN
-F 3 "" H 2775 1200 50  0001 C CNN
-	1    2775 1200
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 1350 6100 1900 875 
 U 5A6412FB
@@ -669,18 +658,12 @@ Wire Wire Line
 Wire Wire Line
 	1825 1300 1825 1200
 Wire Wire Line
-	2625 1300 2675 1300
-Wire Wire Line
-	2675 1300 2675 1200
-Wire Wire Line
-	2675 1200 2775 1200
-Wire Wire Line
 	1475 1250 1475 1300
 Wire Wire Line
 	1425 1300 1550 1300
 Connection ~ 1475 1300
 Wire Wire Line
-	1750 1300 1825 1300
+	1750 1300 2500 1300
 Wire Wire Line
 	1900 2500 1950 2500
 Wire Wire Line
@@ -737,4 +720,7 @@ Wire Wire Line
 Wire Wire Line
 	1475 1750 1475 1700
 Connection ~ 1475 1700
+Wire Wire Line
+	2500 1300 2500 1700
+Connection ~ 1825 1300
 $EndSCHEMATC
