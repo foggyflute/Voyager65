@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 46.545849 28.25625 334.504151 153.909376)
     (thickness 1.6)
-    (drawings 30)
+    (drawings 31)
     (tracks 3369)
     (zones 0)
     (modules 271)
@@ -9886,6 +9886,9 @@
       (net 2 GND))
   )
 
+  (gr_text "PCB by ai03\n60% PCB footprint by amtra5\nDesign guidance by _spindle" (at 147.6375 104.775) (layer F.SilkS)
+    (effects (font (size 1.2 1.2) (thickness 0.17)) (justify left))
+  )
   (gr_text "VOYAGER II" (at 112.522 105.029) (layer F.SilkS)
     (effects (font (size 5 7) (thickness 0.5)))
   )
