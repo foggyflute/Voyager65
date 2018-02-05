@@ -1275,28 +1275,6 @@ F 3 "" H 4175 3700 60  0001 C CNN
 	1    4200 3725
 	1    0    0    -1  
 $EndComp
-$Comp
-L D_Small D55
-U 1 1 5A674270
-P 4100 4000
-F 0 "D55" H 4050 4080 50  0000 L CNN
-F 1 "D_Small" H 3950 3920 50  0000 L CNN
-F 2 "Diodes_SMD:D_SOD-123" V 4100 4000 50  0001 C CNN
-F 3 "" V 4100 4000 50  0001 C CNN
-	1    4100 4000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L MX-1U SP2
-U 1 1 5A67E802
-P 4200 4350
-F 0 "SP2" H 4200 4475 60  0000 C CNN
-F 1 "MX-7U" H 4200 4400 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-7U-ReversedStabilizers-NoLED" H 4175 4325 60  0001 C CNN
-F 3 "" H 4175 4325 60  0001 C CNN
-	1    4200 4350
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 9025 3175 1125 675 
 U 5A683C5B
@@ -1473,10 +1451,6 @@ Wire Wire Line
 Wire Wire Line
 	5975 3275 5900 3275
 Wire Wire Line
-	3975 3900 4175 3900
-Wire Wire Line
-	3975 4525 4175 4525
-Wire Wire Line
 	1675 1025 1675 3075
 Connection ~ 1675 2450
 Connection ~ 1675 1825
@@ -1515,7 +1489,7 @@ Wire Wire Line
 	1150 2575 1675 2575
 Connection ~ 1675 2575
 Wire Wire Line
-	4375 1025 4375 4325
+	4375 1025 4375 3700
 Connection ~ 4375 2450
 Connection ~ 4375 1825
 Connection ~ 4375 1200
@@ -1616,9 +1590,6 @@ Connection ~ 5900 3475
 Wire Wire Line
 	4675 4100 4100 4100
 Wire Wire Line
-	3975 3900 3975 4525
-Connection ~ 4100 3900
-Wire Wire Line
 	7975 2450 8425 2450
 Connection ~ 7775 2650
 Wire Wire Line
@@ -1668,4 +1639,17 @@ Wire Wire Line
 	7575 1825 7575 2450
 Wire Wire Line
 	7575 2450 7525 2450
+$Comp
+L D_Small D55
+U 1 1 5A674270
+P 4100 4000
+F 0 "D55" H 4050 4080 50  0000 L CNN
+F 1 "D_Small" H 3950 3920 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 4100 4000 50  0001 C CNN
+F 3 "" V 4100 4000 50  0001 C CNN
+	1    4100 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 3900 4175 3900
 $EndSCHEMATC
