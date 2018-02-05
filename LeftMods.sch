@@ -123,7 +123,7 @@ F 3 "" V 3125 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3050 2400 3200 2400
+	3125 2400 3525 2400
 $Comp
 L MX-1U LM3
 U 1 1 5A68E997
@@ -148,10 +148,6 @@ F 3 "" H 3200 2825 60  0001 C CNN
 	1    3225 2850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3050 3025 3200 3025
-Wire Wire Line
-	3050 2400 3050 3025
 Connection ~ 3125 2400
 Wire Wire Line
 	2600 2400 2600 3025
@@ -163,7 +159,7 @@ Wire Wire Line
 Text GLabel 2950 1700 1    60   Input ~ 0
 COL1
 Wire Wire Line
-	3400 1700 3400 2825
+	3400 1700 3400 2675
 Text GLabel 3400 1700 1    60   Input ~ 0
 COL2
 Wire Wire Line
@@ -179,4 +175,13 @@ Wire Wire Line
 	2500 1700 2500 2200
 Wire Wire Line
 	2225 2400 2300 2400
+Wire Wire Line
+	3400 2675 3200 2675
+Wire Wire Line
+	3200 2675 3200 3025
+Wire Wire Line
+	3525 2400 3525 2825
+Wire Wire Line
+	3525 2825 3400 2825
+Connection ~ 3200 2400
 $EndSCHEMATC
