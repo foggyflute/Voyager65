@@ -1034,7 +1034,7 @@ Wire Wire Line
 	6075 2050 5900 2050
 Connection ~ 6075 2400
 Wire Wire Line
-	6075 3450 6250 3450
+	6075 3450 6275 3450
 Wire Wire Line
 	6250 2050 6425 2050
 Wire Wire Line
@@ -1107,17 +1107,6 @@ Wire Wire Line
 	7475 3800 7750 3800
 Connection ~ 7475 3450
 $Comp
-L LED_Small LED5-1-2
-U 1 1 5A6D85C3
-P 2225 3350
-F 0 "LED5-1-2" H 2100 3475 50  0000 L CNN
-F 1 "LED" H 2175 3250 50  0000 L CNN
-F 2 "MX_Alps_Hybrid:LED-FLIPPED" V 2225 3350 50  0001 C CNN
-F 3 "" V 2225 3350 50  0001 C CNN
-	1    2225 3350
-	0    1    1    0   
-$EndComp
-$Comp
 L LED_Small LED5-2-2
 U 1 1 5A6D8749
 P 2575 3350
@@ -1162,17 +1151,6 @@ Connection ~ 2550 3450
 Connection ~ 2575 3250
 Connection ~ 2900 3450
 Connection ~ 2925 3250
-$Comp
-L LED_Small LED5-8-2
-U 1 1 5A6DC14A
-P 4675 3350
-F 0 "LED5-8-2" H 4550 3475 50  0000 L CNN
-F 1 "LED" H 4625 3250 50  0000 L CNN
-F 2 "MX_Alps_Hybrid:LED" V 4675 3350 50  0001 C CNN
-F 3 "" V 4675 3350 50  0001 C CNN
-	1    4675 3350
-	0    1    1    0   
-$EndComp
 Connection ~ 4650 3250
 Connection ~ 4675 3450
 $Comp
@@ -1292,4 +1270,30 @@ Connection ~ 6625 3250
 Connection ~ 6625 3450
 Connection ~ 7325 3450
 Connection ~ 7325 3250
+$Comp
+L LED_Small LED5-12-3
+U 1 1 5A78D637
+P 6275 3350
+F 0 "LED5-12-3" H 6150 3475 50  0000 L CNN
+F 1 "LED" H 6225 3250 50  0000 L CNN
+F 2 "MX_Alps_Hybrid:LED-FLIPPED" V 6275 3350 50  0001 C CNN
+F 3 "" V 6275 3350 50  0001 C CNN
+	1    6275 3350
+	0    1    1    0   
+$EndComp
+Connection ~ 6250 3450
+Connection ~ 6275 3250
+$Comp
+L LED_Small LED5-13-3
+U 1 1 5A78D96A
+P 6650 3350
+F 0 "LED5-13-3" H 6525 3475 50  0000 L CNN
+F 1 "LED" H 6600 3250 50  0000 L CNN
+F 2 "MX_Alps_Hybrid:LED" V 6650 3350 50  0001 C CNN
+F 3 "" V 6650 3350 50  0001 C CNN
+	1    6650 3350
+	0    1    1    0   
+$EndComp
+Connection ~ 6650 3250
+Connection ~ 6650 3450
 $EndSCHEMATC
