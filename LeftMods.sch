@@ -180,8 +180,8 @@ Wire Wire Line
 Wire Wire Line
 	3200 2675 3200 3025
 Wire Wire Line
-	3525 2400 3525 2825
-Wire Wire Line
 	3525 2825 3400 2825
 Connection ~ 3200 2400
+Wire Wire Line
+	3525 2400 3525 2825
 $EndSCHEMATC
