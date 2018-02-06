@@ -153,25 +153,14 @@ F 3 "" H 3625 2975 60  0001 C CNN
 	1    3650 3000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2625 1775 2625 2900
 Text GLabel 2625 1775 1    60   Input ~ 0
 COL11
-Wire Wire Line
-	3025 2275 3025 1775
 Text GLabel 3025 1775 1    60   Input ~ 0
 COL12
-Wire Wire Line
-	3425 2275 3425 1775
 Text GLabel 3425 1775 1    60   Input ~ 0
 COL13
-Wire Wire Line
-	3825 2275 3825 1775
 Text GLabel 3825 1775 1    60   Input ~ 0
 COL14
-Connection ~ 3225 2475
-Connection ~ 2825 2475
-Connection ~ 2425 2475
 Text GLabel 1750 2675 0    60   Input ~ 0
 ROW4
 $Comp
@@ -219,11 +208,18 @@ F 3 "" V 3525 2575 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3625 2475 3525 2475
+	2625 1775 2625 2900
+Wire Wire Line
+	3025 1775 3025 2800
+Wire Wire Line
+	3425 2275 3425 1775
+Connection ~ 3225 2475
+Connection ~ 2825 2475
+Connection ~ 2425 2475
 Wire Wire Line
 	3225 2475 3125 2475
 Wire Wire Line
-	2825 2475 2725 2475
+	2725 2475 3075 2475
 Wire Wire Line
 	2150 2475 2425 2475
 Wire Wire Line
@@ -251,4 +247,42 @@ Connection ~ 2150 2975
 Wire Wire Line
 	2425 3175 2625 3175
 Connection ~ 2625 3175
+Wire Wire Line
+	3025 2800 2750 2800
+Wire Wire Line
+	2750 2800 2750 3725
+Wire Wire Line
+	2750 3175 2825 3175
+Connection ~ 3025 2275
+Wire Wire Line
+	2750 3725 2825 3725
+Connection ~ 2750 3175
+Wire Wire Line
+	3075 2475 3075 3525
+Wire Wire Line
+	3075 2975 3025 2975
+Wire Wire Line
+	3075 3525 3025 3525
+Connection ~ 3075 2975
+Wire Wire Line
+	3525 2475 3525 2275
+Wire Wire Line
+	3525 2275 3825 2275
+Wire Wire Line
+	3825 1775 3825 2200
+Wire Wire Line
+	3825 2200 3900 2200
+Wire Wire Line
+	3900 2200 3900 2975
+Wire Wire Line
+	3900 2475 3625 2475
+Wire Wire Line
+	3900 2975 3825 2975
+Connection ~ 3900 2475
+Wire Wire Line
+	3525 2475 3575 2475
+Wire Wire Line
+	3575 2475 3575 3175
+Wire Wire Line
+	3575 3175 3625 3175
 $EndSCHEMATC
