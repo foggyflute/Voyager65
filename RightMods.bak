@@ -39,6 +39,7 @@ LIBS:ws2812b
 LIBS:Tag-Connect
 LIBS:ai03-locallib
 LIBS:logic
+LIBS:Type-C
 LIBS:VoyagerII-cache
 EELAYER 25 0
 EELAYER END
