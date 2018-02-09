@@ -1,4 +1,4 @@
-update=2/8/2018 8:17:25 PM
+update=2/8/2018 8:22:31 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -69,3 +69,4 @@ LibName37=WS2812B.pretty/Schematic-Symbol/ws2812b
 LibName38=Tag-Connect.pretty/Schematic/Tag-Connect
 LibName39=locallib.pretty/schema/ai03-locallib
 LibName40=locallib.pretty/schema/logic
+LibName41=Type-C.pretty/Type-C
