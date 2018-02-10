@@ -958,17 +958,6 @@ F 3 "" V 6800 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX-1U K_ISO`1
-U 1 1 5A649875
-P 7350 2475
-F 0 "K_ISO`1" H 7350 2600 60  0000 C CNN
-F 1 "MX-1U" H 7350 2525 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7325 2450 60  0001 C CNN
-F 3 "" H 7325 2450 60  0001 C CNN
-	1    7350 2475
-	1    0    0    -1  
-$EndComp
-$Comp
 L MX-1U K_ENTER1
 U 1 1 5A649882
 P 7800 2475
@@ -1010,28 +999,6 @@ F 1 "D_Small" H 1250 3295 50  0000 L CNN
 F 2 "Diodes_SMD:D_SOD-123" V 1400 3375 50  0001 C CNN
 F 3 "" V 1400 3375 50  0001 C CNN
 	1    1400 3375
-	0    -1   -1   0   
-$EndComp
-$Comp
-L MX-1U K_ISO\1
-U 1 1 5A64989C
-P 1950 3100
-F 0 "K_ISO\\1" H 1950 3225 60  0000 C CNN
-F 1 "MX-1U" H 1950 3150 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 1925 3075 60  0001 C CNN
-F 3 "" H 1925 3075 60  0001 C CNN
-	1    1950 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L D_Small D45
-U 1 1 5A6498A2
-P 1850 3375
-F 0 "D45" H 1800 3455 50  0000 L CNN
-F 1 "D_Small" H 1700 3295 50  0000 L CNN
-F 2 "Diodes_SMD:D_SOD-123" V 1850 3375 50  0001 C CNN
-F 3 "" V 1850 3375 50  0001 C CNN
-	1    1850 3375
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1244,28 +1211,6 @@ F 3 "" H 1025 2450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX-1U K_ENTER2
-U 1 1 5A6653CE
-P 8250 2475
-F 0 "K_ENTER2" H 8250 2600 60  0000 C CNN
-F 1 "MX-ISO" H 8250 2525 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-ISO-Combined-ReversedStabilizers-NoLED" H 8225 2450 60  0001 C CNN
-F 3 "" H 8225 2450 60  0001 C CNN
-	1    8250 2475
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX-1U K_SHIFT2
-U 1 1 5A669FBA
-P 1050 3100
-F 0 "K_SHIFT2" H 1050 3225 60  0000 C CNN
-F 1 "MX-1.25U" H 1050 3150 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 1025 3075 60  0001 C CNN
-F 3 "" H 1025 3075 60  0001 C CNN
-	1    1050 3100
-	1    0    0    -1  
-$EndComp
-$Comp
 L MX-1U SP1
 U 1 1 5A67426A
 P 4200 3725
@@ -1402,8 +1347,6 @@ Wire Wire Line
 Wire Wire Line
 	7325 2025 7250 2025
 Wire Wire Line
-	7425 2025 7775 2025
-Wire Wire Line
 	1225 2650 1475 2650
 Wire Wire Line
 	2375 2650 2300 2650
@@ -1428,12 +1371,6 @@ Wire Wire Line
 Wire Wire Line
 	6875 2650 6800 2650
 Wire Wire Line
-	7700 2650 8225 2650
-Wire Wire Line
-	1025 3275 1475 3275
-Wire Wire Line
-	1925 3275 1850 3275
-Wire Wire Line
 	2375 3275 2300 3275
 Wire Wire Line
 	2825 3275 2750 3275
@@ -1456,8 +1393,6 @@ Wire Wire Line
 Connection ~ 1675 2450
 Connection ~ 1675 1825
 Connection ~ 1675 1200
-Wire Wire Line
-	2125 1025 2125 3075
 Connection ~ 2125 1200
 Wire Wire Line
 	2575 1025 2575 3075
@@ -1590,14 +1525,10 @@ Connection ~ 7700 2850
 Connection ~ 5900 3475
 Wire Wire Line
 	4675 4100 4100 4100
-Wire Wire Line
-	7975 2450 8425 2450
 Connection ~ 7775 2650
 Wire Wire Line
 	7975 1200 8425 1200
 Connection ~ 7775 1400
-Wire Wire Line
-	1675 3075 1225 3075
 Connection ~ 1400 3275
 Connection ~ 1525 1350
 Connection ~ 1975 1350
@@ -1619,27 +1550,13 @@ Connection ~ 2875 2600
 Connection ~ 3325 2600
 Connection ~ 3775 2600
 Connection ~ 4225 2600
-Connection ~ 1075 3225
 Connection ~ 1525 3225
-Connection ~ 1975 3225
 Connection ~ 2875 3225
 Connection ~ 2425 3225
 Connection ~ 3325 3225
 Connection ~ 3775 3225
 Connection ~ 4225 3225
-Wire Wire Line
-	7425 2025 7425 2300
-Wire Wire Line
-	7425 2300 7325 2300
-Wire Wire Line
-	7325 2300 7325 2650
 Connection ~ 7700 2025
-Wire Wire Line
-	7975 1825 7575 1825
-Wire Wire Line
-	7575 1825 7575 2450
-Wire Wire Line
-	7575 2450 7525 2450
 $Comp
 L D_Small D55
 U 1 1 5A674270
@@ -1653,4 +1570,12 @@ F 3 "" V 4100 4000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4100 3900 4175 3900
+Wire Wire Line
+	7775 2650 7700 2650
+Wire Wire Line
+	7700 2025 7775 2025
+Wire Wire Line
+	2125 1200 2125 1025
+Wire Wire Line
+	1475 3275 1400 3275
 $EndSCHEMATC
