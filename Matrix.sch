@@ -1222,7 +1222,7 @@ F 3 "" H 4175 3700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 9025 3175 1125 675 
+S 7800 3275 1125 675 
 U 5A683C5B
 F0 "RightShift" 60
 F1 "RightShift.sch" 60
