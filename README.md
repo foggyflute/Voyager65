@@ -10,10 +10,10 @@ Endgame 60% Keyboard PCB
 * Type-C USB 2.0 connector
 * RGB underglow with WS2812B/C chips
 * Supported bottom row layouts:
-  * ANSI/1.25-1.25-1.25-6.25U with 5x1U on right for arrow keys
   * WKL/1.5-1-1.5-7U with 4x1U on right for arrow keys
   * WKL/1.5-1-1.5-7U
-* ANSI/ISO support
+  * AEK/1.5-1.25-1.5-6.5-1.25U + 3x1U on right for arrow keys
+  * AEK/1.5-1.25-1.5-6.5
 * Various split right shift support, split backspace support
 * Easy programming via TC2030-IDC header
 * Alps and MX compatibility
