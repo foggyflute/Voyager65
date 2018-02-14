@@ -838,7 +838,6 @@ Wire Wire Line
 Connection ~ 2725 2550
 Wire Wire Line
 	2725 3450 2925 3450
-Connection ~ 2725 3100
 Wire Wire Line
 	3075 2050 3075 2900
 Wire Wire Line
