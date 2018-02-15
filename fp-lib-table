@@ -6,4 +6,5 @@
   (lib (name Tag-Connect)(type KiCad)(uri "$(KIPRJMOD)/Tag-Connect.pretty")(options "")(descr ""))
   (lib (name WS2812B)(type KiCad)(uri "$(KIPRJMOD)/WS2812B.pretty")(options "")(descr ""))
   (lib (name Type-C)(type KiCad)(uri "$(KIPRJMOD)/Type-C.pretty")(options "")(descr ""))
+  (lib (name mysensors_radios)(type KiCad)(uri "$(KIPRJMOD)/mysensors_radios.pretty")(options "")(descr ""))
 )

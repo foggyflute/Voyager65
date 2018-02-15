@@ -958,4 +958,21 @@ F 3 "" H 5550 4975 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 NoConn ~ 5450 4975
+Wire Wire Line
+	4575 4200 5350 4200
+Wire Wire Line
+	5350 4200 5350 4975
+Wire Wire Line
+	4575 4300 5150 4300
+Wire Wire Line
+	5150 4300 5150 4975
+Wire Wire Line
+	4575 4400 5050 4400
+Wire Wire Line
+	5050 4400 5050 4975
+NoConn ~ 4950 4975
+Wire Wire Line
+	4575 4500 5250 4500
+Wire Wire Line
+	5250 4500 5250 4975
 $EndSCHEMATC
