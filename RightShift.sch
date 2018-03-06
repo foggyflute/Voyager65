@@ -210,4 +210,10 @@ Connection ~ 3300 2325
 Wire Wire Line
 	3350 3475 3300 3475
 Connection ~ 3350 3150
+Text GLabel 2150 2475 0    60   Input ~ 0
+LED-SW2
+Wire Wire Line
+	2150 2475 3600 2475
+Connection ~ 2700 2475
+Connection ~ 3150 2475
 $EndSCHEMATC

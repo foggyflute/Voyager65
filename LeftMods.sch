@@ -185,4 +185,9 @@ Wire Wire Line
 Connection ~ 3200 2400
 Wire Wire Line
 	3525 2400 3525 2825
+Wire Wire Line
+	1750 2350 3250 2350
+Connection ~ 2350 2350
+Text GLabel 1750 2350 0    60   Input ~ 0
+LED-SW1
 $EndSCHEMATC
