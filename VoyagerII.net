@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/Ryota/Documents/GitHub/VoyagerII/VoyagerII.sch)
-    (date "3/5/2018 4:15:30 PM")
+    (date "3/5/2018 4:16:30 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -233,6 +233,7 @@
       (tstamp 5A9E07CF))
     (comp (ref U4)
       (value IS31FL3733)
+      (footprint Housings_DFN_QFN:QFN-48-1EP_6x6mm_Pitch0.4mm)
       (libsource (lib ai03-locallib) (part IS31FL3733))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A9E30FB))
