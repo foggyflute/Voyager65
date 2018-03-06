@@ -1664,7 +1664,7 @@ Wire Wire Line
 Text GLabel 3450 3850 0    60   Input ~ 0
 LED-SW1
 Wire Wire Line
-	4325 675  4325 3125
+	4325 675  4325 3750
 Connection ~ 4325 2500
 Connection ~ 4325 1875
 Connection ~ 4325 1250
@@ -1723,4 +1723,5 @@ Wire Wire Line
 Connection ~ 7925 1250
 Text GLabel 7925 675  1    60   Input ~ 0
 LED-CS15
+Connection ~ 4325 3125
 $EndSCHEMATC
