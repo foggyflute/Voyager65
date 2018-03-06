@@ -1290,6 +1290,19 @@ Text GLabel 6400 3475 2    60   Input ~ 0
 ROW3
 Text GLabel 4675 4100 2    60   Input ~ 0
 ROW4
+$Comp
+L D_Small D55
+U 1 1 5A674270
+P 4100 4000
+F 0 "D55" H 4050 4080 50  0000 L CNN
+F 1 "D_Small" H 3950 3920 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 4100 4000 50  0001 C CNN
+F 3 "" V 4100 4000 50  0001 C CNN
+	1    4100 4000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1025 1350 0    60   Input ~ 0
+LED-SW5
 Wire Wire Line
 	1475 1400 1400 1400
 Wire Wire Line
@@ -1557,17 +1570,6 @@ Connection ~ 3325 3225
 Connection ~ 3775 3225
 Connection ~ 4225 3225
 Connection ~ 7700 2025
-$Comp
-L D_Small D55
-U 1 1 5A674270
-P 4100 4000
-F 0 "D55" H 4050 4080 50  0000 L CNN
-F 1 "D_Small" H 3950 3920 50  0000 L CNN
-F 2 "Diodes_SMD:D_SOD-123" V 4100 4000 50  0001 C CNN
-F 3 "" V 4100 4000 50  0001 C CNN
-	1    4100 4000
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	4100 3900 4175 3900
 Wire Wire Line
@@ -1578,4 +1580,42 @@ Wire Wire Line
 	2125 1200 2125 1025
 Wire Wire Line
 	1475 3275 1400 3275
+Wire Wire Line
+	1025 1350 8275 1350
+Connection ~ 4675 1350
+Connection ~ 5125 1350
+Connection ~ 5575 1350
+Connection ~ 6025 1350
+Connection ~ 6475 1350
+Connection ~ 6925 1350
+Connection ~ 7375 1350
+Connection ~ 7825 1350
+Text GLabel 1025 1975 0    60   Input ~ 0
+LED-SW4
+Wire Wire Line
+	1025 1975 7825 1975
+Connection ~ 4675 1975
+Connection ~ 5125 1975
+Connection ~ 5575 1975
+Connection ~ 6025 1975
+Connection ~ 6475 1975
+Connection ~ 6925 1975
+Connection ~ 7375 1975
+Text GLabel 900  2600 0    60   Input ~ 0
+LED-SW3
+Wire Wire Line
+	900  2600 7825 2600
+Connection ~ 4675 2600
+Connection ~ 5125 2600
+Connection ~ 5575 2600
+Connection ~ 6025 2600
+Connection ~ 6475 2600
+Connection ~ 6925 2600
+Text GLabel 1025 3225 0    60   Input ~ 0
+LED-SW2
+Wire Wire Line
+	1025 3225 6025 3225
+Connection ~ 4675 3225
+Connection ~ 5125 3225
+Connection ~ 5575 3225
 $EndSCHEMATC
