@@ -1205,7 +1205,7 @@ U 1 1 5A660657
 P 1050 2475
 F 0 "K_CAPS2" H 1050 2600 60  0000 C CNN
 F 1 "MX-1.25U" H 1050 2525 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1.25U" H 1025 2450 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.25U-FLIPPED" H 1025 2450 60  0001 C CNN
 F 3 "" H 1025 2450 60  0001 C CNN
 	1    1050 2475
 	1    0    0    -1  
@@ -1618,4 +1618,109 @@ Wire Wire Line
 Connection ~ 4675 3225
 Connection ~ 5125 3225
 Connection ~ 5575 3225
+Wire Wire Line
+	1625 675  1625 3125
+Connection ~ 1625 1875
+Wire Wire Line
+	1625 2500 1175 2500
+Connection ~ 1625 2500
+Connection ~ 1625 1250
+Text GLabel 1625 675  1    60   Input ~ 0
+LED-CS1
+Wire Wire Line
+	2525 675  2525 3125
+Connection ~ 2525 2500
+Connection ~ 2525 1875
+Connection ~ 2525 1250
+Text GLabel 2525 675  1    60   Input ~ 0
+LED-CS3
+Wire Wire Line
+	2075 1250 2075 675 
+Text GLabel 2075 675  1    60   Input ~ 0
+LED-CS2
+Wire Wire Line
+	2975 675  2975 3125
+Connection ~ 2975 2500
+Connection ~ 2975 1875
+Connection ~ 2975 1250
+Text GLabel 2975 675  1    60   Input ~ 0
+LED-CS4
+Wire Wire Line
+	3425 675  3425 3125
+Connection ~ 3425 2500
+Connection ~ 3425 1875
+Connection ~ 3425 1250
+Text GLabel 3425 675  1    60   Input ~ 0
+LED-CS5
+Wire Wire Line
+	3875 675  3875 3125
+Connection ~ 3875 2500
+Connection ~ 3875 1875
+Connection ~ 3875 1250
+Text GLabel 3875 675  1    60   Input ~ 0
+LED-CS6
+Wire Wire Line
+	4225 3850 3450 3850
+Text GLabel 3450 3850 0    60   Input ~ 0
+LED-SW1
+Wire Wire Line
+	4325 675  4325 3125
+Connection ~ 4325 2500
+Connection ~ 4325 1875
+Connection ~ 4325 1250
+Text GLabel 4325 675  1    60   Input ~ 0
+LED-CS7
+Wire Wire Line
+	4775 675  4775 3125
+Connection ~ 4775 2500
+Connection ~ 4775 1875
+Connection ~ 4775 1250
+Text GLabel 4775 675  1    60   Input ~ 0
+LED-CS8
+Wire Wire Line
+	5225 675  5225 3125
+Connection ~ 5225 2500
+Connection ~ 5225 1875
+Connection ~ 5225 1250
+Text GLabel 5225 675  1    60   Input ~ 0
+LED-CS9
+Wire Wire Line
+	5675 675  5675 3125
+Connection ~ 5675 2500
+Connection ~ 5675 1875
+Connection ~ 5675 1250
+Text GLabel 5675 675  1    60   Input ~ 0
+LED-CS10
+Wire Wire Line
+	6125 675  6125 3125
+Connection ~ 6125 2500
+Connection ~ 6125 1875
+Connection ~ 6125 1250
+Text GLabel 6125 675  1    60   Input ~ 0
+LED-CS11
+Wire Wire Line
+	6575 675  6575 2500
+Connection ~ 6575 1875
+Connection ~ 6575 1250
+Text GLabel 6575 675  1    60   Input ~ 0
+LED-CS12
+Wire Wire Line
+	7025 675  7025 2500
+Connection ~ 7025 1875
+Connection ~ 7025 1250
+Text GLabel 7025 675  1    60   Input ~ 0
+LED-CS13
+Wire Wire Line
+	7475 675  7475 1875
+Connection ~ 7475 1250
+Text GLabel 7475 675  1    60   Input ~ 0
+LED-CS14
+Wire Wire Line
+	7925 675  7925 2500
+Connection ~ 7925 1875
+Wire Wire Line
+	7925 1250 8375 1250
+Connection ~ 7925 1250
+Text GLabel 7925 675  1    60   Input ~ 0
+LED-CS15
 $EndSCHEMATC

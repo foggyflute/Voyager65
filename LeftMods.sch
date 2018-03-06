@@ -190,4 +190,16 @@ Wire Wire Line
 Connection ~ 2350 2350
 Text GLabel 1750 2350 0    60   Input ~ 0
 LED-SW1
+Wire Wire Line
+	2450 2250 2450 1325
+Text GLabel 2450 1325 1    60   Input ~ 0
+LED-CS1
+Wire Wire Line
+	2900 1325 2900 2250
+Text GLabel 2900 1325 1    60   Input ~ 0
+LED-CS2
+Wire Wire Line
+	3350 2250 3350 1325
+Text GLabel 3350 1325 1    60   Input ~ 0
+LED-CS3
 $EndSCHEMATC
