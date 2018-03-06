@@ -934,4 +934,44 @@ Wire Wire Line
 	9000 4475 8875 4475
 NoConn ~ 8375 3275
 NoConn ~ 8375 3375
+Text GLabel 7375 4475 0    60   Input ~ 0
+LED-CS1
+Text GLabel 7375 4575 0    60   Input ~ 0
+LED-CS2
+Text GLabel 7375 4675 0    60   Input ~ 0
+LED-CS3
+Text GLabel 7375 4775 0    60   Input ~ 0
+LED-CS4
+Text GLabel 7375 4875 0    60   Input ~ 0
+LED-CS5
+Text GLabel 7375 4975 0    60   Input ~ 0
+LED-CS6
+Text GLabel 7375 5075 0    60   Input ~ 0
+LED-CS7
+Text GLabel 7375 5175 0    60   Input ~ 0
+LED-CS8
+Text GLabel 7375 5275 0    60   Input ~ 0
+LED-CS9
+Text GLabel 7375 5375 0    60   Input ~ 0
+LED-CS10
+Text GLabel 7375 5475 0    60   Input ~ 0
+LED-CS11
+Text GLabel 7375 5575 0    60   Input ~ 0
+LED-CS12
+Text GLabel 7375 5675 0    60   Input ~ 0
+LED-CS13
+Text GLabel 7375 5775 0    60   Input ~ 0
+LED-CS14
+Text GLabel 7375 5875 0    60   Input ~ 0
+LED-CS15
+Text GLabel 7375 3275 0    60   Input ~ 0
+LED-SW1
+Text GLabel 7375 3375 0    60   Input ~ 0
+LED-SW2
+Text GLabel 7375 3475 0    60   Input ~ 0
+LED-SW3
+Text GLabel 7375 3575 0    60   Input ~ 0
+LED-SW4
+Text GLabel 7375 3675 0    60   Input ~ 0
+LED-SW5
 $EndSCHEMATC
