@@ -38,7 +38,7 @@
 
   (setup
     (last_trace_width 0.254)
-    (trace_clearance 0.254)
+    (trace_clearance 0.1778)
     (zone_clearance 0.381)
     (zone_45_only no)
     (trace_min 0.2)
@@ -251,7 +251,7 @@
   (net 157 LED-CS14)
 
   (net_class Default "This is the default net class."
-    (clearance 0.254)
+    (clearance 0.1778)
     (trace_width 0.254)
     (via_dia 0.6)
     (via_drill 0.4)
@@ -413,7 +413,7 @@
   )
 
   (net_class Power ""
-    (clearance 0.254)
+    (clearance 0.1778)
     (trace_width 0.381)
     (via_dia 0.6)
     (via_drill 0.4)
