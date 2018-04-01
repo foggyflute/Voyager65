@@ -974,4 +974,6 @@ Text GLabel 7375 3575 0    60   Input ~ 0
 LED-SW4
 Text GLabel 7375 3675 0    60   Input ~ 0
 LED-SW5
+Text Notes 2675 5400 0    60   ~ 0
+SDA and SCL are marked as I2C+- for the sake of using KiCad's differential router
 $EndSCHEMATC

@@ -974,4 +974,19 @@ Text GLabel 7375 3575 0    60   Input ~ 0
 LED-SW4
 Text GLabel 7375 3675 0    60   Input ~ 0
 LED-SW5
+Text Notes 2675 5400 0    60   ~ 0
+SDA and SCL are marked as I2C+- for the sake of using KiCad's differential router
+$Comp
+L +3.3V #PWR?
+U 1 1 5AA88312
+P 8575 4375
+F 0 "#PWR?" H 8575 4225 50  0001 C CNN
+F 1 "+3.3V" H 8575 4515 50  0000 C CNN
+F 2 "" H 8575 4375 50  0001 C CNN
+F 3 "" H 8575 4375 50  0001 C CNN
+	1    8575 4375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8575 4375 8375 4375
 $EndSCHEMATC
