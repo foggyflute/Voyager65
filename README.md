@@ -4,7 +4,7 @@ Endgame 60% Keyboard PCB
 ![Renders failed to load](https://raw.githubusercontent.com/ai03-2725/VoyagerII/master/Renders/Back.png "Backside Render")
 
 ## Features
-* Full individual-controllable backlighting
+* Full individual-controllable backlighting via ISSI IS31FL3733
 * Atxmega32a4u controller for Keyplus firmware usage
 * Overcurrent and ESD protection, along with physically durable design
 * Type-C USB 2.0 connector
@@ -18,4 +18,3 @@ Endgame 60% Keyboard PCB
 * Easy programming via TC2030-IDC header
 * Alps and MX compatibility
 * Culmination of 1 full year's worth of 60% keyboard PCB design research
-* Hand-solderable footprints only
