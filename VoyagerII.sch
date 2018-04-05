@@ -45,7 +45,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -445,12 +445,6 @@ S 3475 6100 1075 875
 U 5A6B38C8
 F0 "RGB" 60
 F1 "RGB.sch" 60
-$EndSheet
-$Sheet
-S 4775 6100 2025 875 
-U 5A6DA159
-F0 "LEDMatrix" 60
-F1 "LEDMatrix.sch" 60
 $EndSheet
 $Comp
 L +3.3V #PWR014
