@@ -1,4 +1,4 @@
-update=2/8/2018 8:22:31 PM
+update=4/6/2018 10:25:52 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -70,3 +70,13 @@ LibName38=Tag-Connect.pretty/Schematic/Tag-Connect
 LibName39=locallib.pretty/schema/ai03-locallib
 LibName40=locallib.pretty/schema/logic
 LibName41=Type-C.pretty/Type-C
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
