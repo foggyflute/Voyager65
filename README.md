@@ -1,20 +1,14 @@
-# VoyagerII
-Endgame 60% Keyboard PCB
+# Voyager65
+Cutting-edge 65% keyboard PCB
 
-![Renders failed to load](https://raw.githubusercontent.com/ai03-2725/VoyagerII/master/Renders/Back.png "Backside Render")
+[Supported Layouts](http://www.keyboard-layout-editor.com/#/gists/98784f0271c0b4e29edec77185eb883a)
 
 ## Features
 * Full individual-controllable backlighting via ISSI IS31FL3733
 * Atxmega32a4u controller for Keyplus firmware usage
 * Overcurrent and ESD protection, along with physically durable design
-* Type-C USB 2.0 connector
+* Type-C USB connector
 * RGB underglow with WS2812B/C chips
-* Supported bottom row layouts:
-  * WKL/1.5-1-1.5-7U with 4x1U on right for arrow keys
-  * WKL/1.5-1-1.5-7U
-  * AEK/1.5-1.25-1.5-6.5-1.25U + 3x1U on right for arrow keys
-  * AEK/1.5-1.25-1.5-6.5
-* Various split right shift support, split backspace support
 * Easy programming via TC2030-IDC header
 * Alps and MX compatibility
-* Culmination of 1 full year's worth of 60% keyboard PCB design research
+* The latest technology, some of which is untested or unstable. Stable variant incoming soon.
