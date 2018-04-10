@@ -40,7 +40,7 @@ LIBS:Tag-Connect
 LIBS:ai03-locallib
 LIBS:logic
 LIBS:Type-C
-LIBS:VoyagerII-cache
+LIBS:Voyager65-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1210,23 +1210,6 @@ F 3 "" H 1025 2450 60  0001 C CNN
 	1    1050 2475
 	1    0    0    -1  
 $EndComp
-$Comp
-L MX-1U SP1
-U 1 1 5A67426A
-P 4200 3725
-F 0 "SP1" H 4200 3850 60  0000 C CNN
-F 1 "MX-7U" H 4200 3775 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-7U-ReversedStabilizers" H 4175 3700 60  0001 C CNN
-F 3 "" H 4175 3700 60  0001 C CNN
-	1    4200 3725
-	1    0    0    -1  
-$EndComp
-$Sheet
-S 7800 3275 1125 675 
-U 5A683C5B
-F0 "RightShift" 60
-F1 "RightShift.sch" 60
-$EndSheet
 $Sheet
 S 1150 3950 1400 750 
 U 5A68E29D
@@ -1288,19 +1271,6 @@ Text GLabel 8625 2850 2    60   Input ~ 0
 ROW2
 Text GLabel 6400 3475 2    60   Input ~ 0
 ROW3
-Text GLabel 4675 4100 2    60   Input ~ 0
-ROW4
-$Comp
-L D_Small D55
-U 1 1 5A674270
-P 4100 4000
-F 0 "D55" H 4050 4080 50  0000 L CNN
-F 1 "D_Small" H 3950 3920 50  0000 L CNN
-F 2 "Diodes_SMD:D_SOD-123" V 4100 4000 50  0001 C CNN
-F 3 "" V 4100 4000 50  0001 C CNN
-	1    4100 4000
-	0    -1   -1   0   
-$EndComp
 Text GLabel 1025 1350 0    60   Input ~ 0
 LED-SW5
 Wire Wire Line
@@ -1438,7 +1408,7 @@ Wire Wire Line
 	1150 2575 1675 2575
 Connection ~ 1675 2575
 Wire Wire Line
-	4375 1025 4375 3700
+	4375 1025 4375 3075
 Connection ~ 4375 2450
 Connection ~ 4375 1825
 Connection ~ 4375 1200
@@ -1448,7 +1418,6 @@ Connection ~ 4825 1200
 Connection ~ 4825 1825
 Connection ~ 4825 2450
 Connection ~ 4375 3075
-Connection ~ 4375 3700
 Wire Wire Line
 	5275 1025 5275 3075
 Connection ~ 5275 2450
@@ -1536,8 +1505,6 @@ Connection ~ 7700 1600
 Connection ~ 7700 2225
 Connection ~ 7700 2850
 Connection ~ 5900 3475
-Wire Wire Line
-	4675 4100 4100 4100
 Connection ~ 7775 2650
 Wire Wire Line
 	7975 1200 8425 1200
@@ -1570,8 +1537,6 @@ Connection ~ 3325 3225
 Connection ~ 3775 3225
 Connection ~ 4225 3225
 Connection ~ 7700 2025
-Wire Wire Line
-	4100 3900 4175 3900
 Wire Wire Line
 	7775 2650 7700 2650
 Wire Wire Line
@@ -1660,11 +1625,7 @@ Connection ~ 3875 1250
 Text GLabel 3875 675  1    60   Input ~ 0
 LED-CS6
 Wire Wire Line
-	4225 3850 3450 3850
-Text GLabel 3450 3850 0    60   Input ~ 0
-LED-SW1
-Wire Wire Line
-	4325 675  4325 3750
+	4325 675  4325 3125
 Connection ~ 4325 2500
 Connection ~ 4325 1875
 Connection ~ 4325 1250
@@ -1724,4 +1685,10 @@ Connection ~ 7925 1250
 Text GLabel 7925 675  1    60   Input ~ 0
 LED-CS15
 Connection ~ 4325 3125
+$Sheet
+S 2800 3950 1375 750 
+U 5ACD5051
+F0 "Space" 60
+F1 "Space.sch" 60
+$EndSheet
 $EndSCHEMATC
