@@ -45,7 +45,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -1211,19 +1211,13 @@ F 3 "" H 1025 2450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 7800 3275 1125 675 
-U 5A683C5B
-F0 "RightShift" 60
-F1 "RightShift.sch" 60
-$EndSheet
-$Sheet
 S 1150 3950 1400 750 
 U 5A68E29D
 F0 "LeftMods" 60
 F1 "LeftMods.sch" 60
 $EndSheet
 $Sheet
-S 5275 3925 1700 775 
+S 4400 3950 1800 750 
 U 5A6966B4
 F0 "RightMods" 60
 F1 "RightMods.sch" 60
@@ -1231,12 +1225,12 @@ $EndSheet
 $Comp
 L MX-1U K_BACK2
 U 1 1 5A6A6B25
-P 8250 1225
-F 0 "K_BACK2" H 8250 1350 60  0000 C CNN
-F 1 "MX-1U" H 8250 1275 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U" H 8225 1200 60  0001 C CNN
-F 3 "" H 8225 1200 60  0001 C CNN
-	1    8250 1225
+P 8375 750
+F 0 "K_BACK2" H 8375 875 60  0000 C CNN
+F 1 "MX-1U" H 8375 800 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 8350 725 60  0001 C CNN
+F 3 "" H 8350 725 60  0001 C CNN
+	1    8375 750 
 	1    0    0    -1  
 $EndComp
 Text GLabel 1675 1025 1    60   Input ~ 0
@@ -1269,16 +1263,113 @@ Text GLabel 7525 1025 1    60   Input ~ 0
 COL13
 Text GLabel 7975 1025 1    60   Input ~ 0
 COL14
-Text GLabel 8625 1600 2    60   Input ~ 0
+Text GLabel 9175 1600 2    60   Input ~ 0
 ROW0
-Text GLabel 8625 2225 2    60   Input ~ 0
+Text GLabel 9175 2225 2    60   Input ~ 0
 ROW1
-Text GLabel 8625 2850 2    60   Input ~ 0
+Text GLabel 9175 2850 2    60   Input ~ 0
 ROW2
-Text GLabel 6400 3475 2    60   Input ~ 0
+Text GLabel 9175 3475 2    60   Input ~ 0
 ROW3
 Text GLabel 1025 1350 0    60   Input ~ 0
 LED-SW5
+Text GLabel 1025 1975 0    60   Input ~ 0
+LED-SW4
+Text GLabel 900  2600 0    60   Input ~ 0
+LED-SW3
+Text GLabel 1025 3225 0    60   Input ~ 0
+LED-SW2
+Text GLabel 1625 675  1    60   Input ~ 0
+LED-CS1
+Text GLabel 2525 675  1    60   Input ~ 0
+LED-CS3
+Text GLabel 2075 675  1    60   Input ~ 0
+LED-CS2
+Text GLabel 2975 675  1    60   Input ~ 0
+LED-CS4
+Text GLabel 3425 675  1    60   Input ~ 0
+LED-CS5
+Text GLabel 3875 675  1    60   Input ~ 0
+LED-CS6
+Text GLabel 4325 675  1    60   Input ~ 0
+LED-CS7
+Text GLabel 4775 675  1    60   Input ~ 0
+LED-CS8
+Text GLabel 5225 675  1    60   Input ~ 0
+LED-CS9
+Text GLabel 5675 675  1    60   Input ~ 0
+LED-CS10
+Text GLabel 6125 675  1    60   Input ~ 0
+LED-CS11
+Text GLabel 6575 675  1    60   Input ~ 0
+LED-CS12
+Text GLabel 7025 675  1    60   Input ~ 0
+LED-CS13
+Text GLabel 7475 675  1    60   Input ~ 0
+LED-CS14
+Text GLabel 7925 675  1    60   Input ~ 0
+LED-CS15
+$Sheet
+S 2800 3950 1375 750 
+U 5ACD5051
+F0 "Space" 60
+F1 "Space.sch" 60
+$EndSheet
+$Comp
+L MX-1U K_/1
+U 1 1 5ACD7076
+P 6450 3100
+F 0 "K_/1" H 6450 3225 60  0000 C CNN
+F 1 "MX-1U" H 6450 3150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 6425 3075 60  0001 C CNN
+F 3 "" H 6425 3075 60  0001 C CNN
+	1    6450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small D56
+U 1 1 5ACD7453
+P 6350 3375
+F 0 "D56" H 6300 3455 50  0000 L CNN
+F 1 "D_Small" H 6200 3295 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 6350 3375 50  0001 C CNN
+F 3 "" V 6350 3375 50  0001 C CNN
+	1    6350 3375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX-1U K_SHIFT2
+U 1 1 5ACD851F
+P 6900 3100
+F 0 "K_SHIFT2" H 6900 3225 60  0000 C CNN
+F 1 "MX-1.75U" H 6900 3150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.75U" H 6875 3075 60  0001 C CNN
+F 3 "" H 6875 3075 60  0001 C CNN
+	1    6900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small D57
+U 1 1 5ACD867C
+P 6800 3375
+F 0 "D57" H 6750 3455 50  0000 L CNN
+F 1 "D_Small" H 6650 3295 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 6800 3375 50  0001 C CNN
+F 3 "" V 6800 3375 50  0001 C CNN
+	1    6800 3375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX-1U K_EX1
+U 1 1 5ACDD648
+P 8425 1225
+F 0 "K_EX1" H 8425 1350 60  0000 C CNN
+F 1 "MX-1U" H 8425 1275 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 8400 1200 60  0001 C CNN
+F 3 "" H 8400 1200 60  0001 C CNN
+	1    8425 1225
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	1475 1400 1400 1400
 Wire Wire Line
@@ -1307,8 +1398,6 @@ Wire Wire Line
 	6875 1400 6800 1400
 Wire Wire Line
 	7325 1400 7250 1400
-Wire Wire Line
-	7700 1400 8225 1400
 Wire Wire Line
 	1475 2025 1400 2025
 Wire Wire Line
@@ -1440,22 +1529,22 @@ Connection ~ 6175 2450
 Connection ~ 6175 1825
 Connection ~ 6175 1200
 Wire Wire Line
-	6625 1025 6625 2450
+	6625 1025 6625 3075
 Connection ~ 6625 1200
 Connection ~ 6625 1825
 Wire Wire Line
-	7075 1025 7075 2450
+	7075 1025 7075 3075
 Connection ~ 7075 1825
 Connection ~ 7075 1200
 Wire Wire Line
-	7525 1025 7525 1825
+	7525 1025 7525 3700
 Connection ~ 7525 1200
 Wire Wire Line
-	7975 1025 7975 2450
+	7975 1025 7975 3700
 Connection ~ 7975 1825
 Connection ~ 7975 1200
 Wire Wire Line
-	1400 1600 8625 1600
+	1400 1600 9175 1600
 Connection ~ 7250 1600
 Connection ~ 6800 1600
 Connection ~ 6350 1600
@@ -1470,7 +1559,7 @@ Connection ~ 2750 1600
 Connection ~ 2300 1600
 Connection ~ 1850 1600
 Wire Wire Line
-	1400 2225 8625 2225
+	1400 2225 9175 2225
 Connection ~ 7250 2225
 Connection ~ 6800 2225
 Connection ~ 6350 2225
@@ -1484,7 +1573,7 @@ Connection ~ 3200 2225
 Connection ~ 2750 2225
 Connection ~ 2300 2225
 Wire Wire Line
-	1400 2850 8625 2850
+	1400 2850 9175 2850
 Connection ~ 2300 2850
 Connection ~ 2750 2850
 Connection ~ 3200 2850
@@ -1497,7 +1586,7 @@ Connection ~ 5900 2850
 Connection ~ 6350 2850
 Connection ~ 6800 2850
 Wire Wire Line
-	1400 3475 6400 3475
+	1400 3475 9175 3475
 Connection ~ 5450 3475
 Connection ~ 5000 3475
 Connection ~ 4550 3475
@@ -1512,8 +1601,6 @@ Connection ~ 7700 2225
 Connection ~ 7700 2850
 Connection ~ 5900 3475
 Connection ~ 7775 2650
-Wire Wire Line
-	7975 1200 8425 1200
 Connection ~ 7775 1400
 Connection ~ 1400 3275
 Connection ~ 1525 1350
@@ -1551,8 +1638,6 @@ Wire Wire Line
 	2125 1200 2125 1025
 Wire Wire Line
 	1475 3275 1400 3275
-Wire Wire Line
-	1025 1350 8275 1350
 Connection ~ 4675 1350
 Connection ~ 5125 1350
 Connection ~ 5575 1350
@@ -1561,10 +1646,8 @@ Connection ~ 6475 1350
 Connection ~ 6925 1350
 Connection ~ 7375 1350
 Connection ~ 7825 1350
-Text GLabel 1025 1975 0    60   Input ~ 0
-LED-SW4
 Wire Wire Line
-	1025 1975 7825 1975
+	1025 1975 8450 1975
 Connection ~ 4675 1975
 Connection ~ 5125 1975
 Connection ~ 5575 1975
@@ -1572,20 +1655,16 @@ Connection ~ 6025 1975
 Connection ~ 6475 1975
 Connection ~ 6925 1975
 Connection ~ 7375 1975
-Text GLabel 900  2600 0    60   Input ~ 0
-LED-SW3
 Wire Wire Line
-	900  2600 7825 2600
+	900  2600 8450 2600
 Connection ~ 4675 2600
 Connection ~ 5125 2600
 Connection ~ 5575 2600
 Connection ~ 6025 2600
 Connection ~ 6475 2600
 Connection ~ 6925 2600
-Text GLabel 1025 3225 0    60   Input ~ 0
-LED-SW2
 Wire Wire Line
-	1025 3225 6025 3225
+	1025 3225 8450 3225
 Connection ~ 4675 3225
 Connection ~ 5125 3225
 Connection ~ 5575 3225
@@ -1596,105 +1675,336 @@ Wire Wire Line
 	1625 2500 1175 2500
 Connection ~ 1625 2500
 Connection ~ 1625 1250
-Text GLabel 1625 675  1    60   Input ~ 0
-LED-CS1
 Wire Wire Line
 	2525 675  2525 3125
 Connection ~ 2525 2500
 Connection ~ 2525 1875
 Connection ~ 2525 1250
-Text GLabel 2525 675  1    60   Input ~ 0
-LED-CS3
 Wire Wire Line
 	2075 1250 2075 675 
-Text GLabel 2075 675  1    60   Input ~ 0
-LED-CS2
 Wire Wire Line
 	2975 675  2975 3125
 Connection ~ 2975 2500
 Connection ~ 2975 1875
 Connection ~ 2975 1250
-Text GLabel 2975 675  1    60   Input ~ 0
-LED-CS4
 Wire Wire Line
 	3425 675  3425 3125
 Connection ~ 3425 2500
 Connection ~ 3425 1875
 Connection ~ 3425 1250
-Text GLabel 3425 675  1    60   Input ~ 0
-LED-CS5
 Wire Wire Line
 	3875 675  3875 3125
 Connection ~ 3875 2500
 Connection ~ 3875 1875
 Connection ~ 3875 1250
-Text GLabel 3875 675  1    60   Input ~ 0
-LED-CS6
 Wire Wire Line
 	4325 675  4325 3125
 Connection ~ 4325 2500
 Connection ~ 4325 1875
 Connection ~ 4325 1250
-Text GLabel 4325 675  1    60   Input ~ 0
-LED-CS7
 Wire Wire Line
 	4775 675  4775 3125
 Connection ~ 4775 2500
 Connection ~ 4775 1875
 Connection ~ 4775 1250
-Text GLabel 4775 675  1    60   Input ~ 0
-LED-CS8
 Wire Wire Line
 	5225 675  5225 3125
 Connection ~ 5225 2500
 Connection ~ 5225 1875
 Connection ~ 5225 1250
-Text GLabel 5225 675  1    60   Input ~ 0
-LED-CS9
 Wire Wire Line
 	5675 675  5675 3125
 Connection ~ 5675 2500
 Connection ~ 5675 1875
 Connection ~ 5675 1250
-Text GLabel 5675 675  1    60   Input ~ 0
-LED-CS10
 Wire Wire Line
 	6125 675  6125 3125
 Connection ~ 6125 2500
 Connection ~ 6125 1875
 Connection ~ 6125 1250
-Text GLabel 6125 675  1    60   Input ~ 0
-LED-CS11
 Wire Wire Line
-	6575 675  6575 2500
+	6575 675  6575 3125
 Connection ~ 6575 1875
 Connection ~ 6575 1250
-Text GLabel 6575 675  1    60   Input ~ 0
-LED-CS12
 Wire Wire Line
-	7025 675  7025 2500
+	7025 675  7025 3125
 Connection ~ 7025 1875
 Connection ~ 7025 1250
-Text GLabel 7025 675  1    60   Input ~ 0
-LED-CS13
 Wire Wire Line
-	7475 675  7475 1875
+	7475 675  7475 3750
 Connection ~ 7475 1250
-Text GLabel 7475 675  1    60   Input ~ 0
-LED-CS14
 Wire Wire Line
-	7925 675  7925 2500
+	7925 675  7925 3750
 Connection ~ 7925 1875
-Wire Wire Line
-	7925 1250 8375 1250
 Connection ~ 7925 1250
-Text GLabel 7925 675  1    60   Input ~ 0
-LED-CS15
 Connection ~ 4325 3125
-$Sheet
-S 2800 3950 1375 750 
-U 5ACD5051
-F0 "Space" 60
-F1 "Space.sch" 60
-$EndSheet
+Connection ~ 6350 3475
+Wire Wire Line
+	6350 3275 6425 3275
+Connection ~ 6025 3225
+Connection ~ 6575 2500
+Connection ~ 6625 2450
+Wire Wire Line
+	6800 3275 6875 3275
+Connection ~ 7075 2450
+Connection ~ 7025 2500
+Connection ~ 6475 3225
+Wire Wire Line
+	1025 1350 8450 1350
+Wire Wire Line
+	7700 1400 8125 1400
+Wire Wire Line
+	7975 1200 8075 1200
+Wire Wire Line
+	8075 1200 8075 725 
+Wire Wire Line
+	8075 725  8550 725 
+Wire Wire Line
+	8500 775  8100 775 
+Wire Wire Line
+	8100 775  8100 1250
+Wire Wire Line
+	8100 1250 7925 1250
+Wire Wire Line
+	8125 1400 8125 925 
+Wire Wire Line
+	8125 925  8350 925 
+Wire Wire Line
+	8400 875  8150 875 
+Wire Wire Line
+	8150 875  8150 1350
+Connection ~ 8150 1350
+$Comp
+L D_Small D42
+U 1 1 5ACDDDF6
+P 8325 1500
+F 0 "D42" H 8275 1580 50  0000 L CNN
+F 1 "D_Small" H 8175 1420 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 8325 1500 50  0001 C CNN
+F 3 "" V 8325 1500 50  0001 C CNN
+	1    8325 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8325 1400 8400 1400
+Connection ~ 8325 1600
+$Comp
+L MX-1U K_EX2
+U 1 1 5ACDEC98
+P 8425 1850
+F 0 "K_EX2" H 8425 1975 60  0000 C CNN
+F 1 "MX-1U" H 8425 1900 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 8400 1825 60  0001 C CNN
+F 3 "" H 8400 1825 60  0001 C CNN
+	1    8425 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small D45
+U 1 1 5ACDF358
+P 8325 2125
+F 0 "D45" H 8275 2205 50  0000 L CNN
+F 1 "D_Small" H 8175 2045 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 8325 2125 50  0001 C CNN
+F 3 "" V 8325 2125 50  0001 C CNN
+	1    8325 2125
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8325 2225
+Wire Wire Line
+	8325 2025 8400 2025
+Connection ~ 7825 1975
+Wire Wire Line
+	8600 1050 8600 3700
+Wire Wire Line
+	8600 1050 9025 1050
+Wire Wire Line
+	9025 1050 9025 750 
+Connection ~ 8600 1200
+Text GLabel 9025 750  1    60   Input ~ 0
+COL15
+Text GLabel 8900 750  1    60   Input ~ 0
+LED-CS16
+Wire Wire Line
+	8900 750  8900 1000
+Wire Wire Line
+	8900 1000 8550 1000
+Wire Wire Line
+	8550 1000 8550 3750
+Connection ~ 8550 1250
+$Comp
+L MX-1U K_EX3
+U 1 1 5ACE103B
+P 8425 2475
+F 0 "K_EX3" H 8425 2600 60  0000 C CNN
+F 1 "MX-1U" H 8425 2525 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 8400 2450 60  0001 C CNN
+F 3 "" H 8400 2450 60  0001 C CNN
+	1    8425 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small D55
+U 1 1 5ACE140D
+P 8325 2750
+F 0 "D55" H 8275 2830 50  0000 L CNN
+F 1 "D_Small" H 8175 2670 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 8325 2750 50  0001 C CNN
+F 3 "" V 8325 2750 50  0001 C CNN
+	1    8325 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8325 2650 8400 2650
+Connection ~ 8325 2850
+Connection ~ 7825 2600
+$Comp
+L MX-1U K_EX4
+U 1 1 5ACE2B9D
+P 8425 3100
+F 0 "K_EX4" H 8425 3225 60  0000 C CNN
+F 1 "MX-1U" H 8425 3150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 8400 3075 60  0001 C CNN
+F 3 "" H 8400 3075 60  0001 C CNN
+	1    8425 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small D59
+U 1 1 5ACE2D16
+P 8325 3375
+F 0 "D59" H 8275 3455 50  0000 L CNN
+F 1 "D_Small" H 8175 3295 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 8325 3375 50  0001 C CNN
+F 3 "" V 8325 3375 50  0001 C CNN
+	1    8325 3375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 3275 8325 3275
+$Comp
+L MX-1U K_UP1
+U 1 1 5ACE3337
+P 7800 3100
+F 0 "K_UP1" H 7800 3225 60  0000 C CNN
+F 1 "MX-1U" H 7800 3150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 7775 3075 60  0001 C CNN
+F 3 "" H 7775 3075 60  0001 C CNN
+	1    7800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small D58
+U 1 1 5ACE333D
+P 7700 3375
+F 0 "D58" H 7650 3455 50  0000 L CNN
+F 1 "D_Small" H 7550 3295 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 7700 3375 50  0001 C CNN
+F 3 "" V 7700 3375 50  0001 C CNN
+	1    7700 3375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7775 3275 7700 3275
+$Comp
+L MX-1U K_RIGHT1
+U 1 1 5ACE57F3
+P 8425 3725
+F 0 "K_RIGHT1" H 8425 3850 60  0000 C CNN
+F 1 "MX-1U" H 8425 3775 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 8400 3700 60  0001 C CNN
+F 3 "" H 8400 3700 60  0001 C CNN
+	1    8425 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small D62
+U 1 1 5ACE57F9
+P 8325 4000
+F 0 "D62" H 8275 4080 50  0000 L CNN
+F 1 "D_Small" H 8175 3920 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 8325 4000 50  0001 C CNN
+F 3 "" V 8325 4000 50  0001 C CNN
+	1    8325 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 3900 8325 3900
+$Comp
+L MX-1U K_DOWN1
+U 1 1 5ACE5800
+P 7800 3725
+F 0 "K_DOWN1" H 7800 3850 60  0000 C CNN
+F 1 "MX-1U" H 7800 3775 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 7775 3700 60  0001 C CNN
+F 3 "" H 7775 3700 60  0001 C CNN
+	1    7800 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small D61
+U 1 1 5ACE5806
+P 7700 4000
+F 0 "D61" H 7650 4080 50  0000 L CNN
+F 1 "D_Small" H 7550 3920 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 7700 4000 50  0001 C CNN
+F 3 "" V 7700 4000 50  0001 C CNN
+	1    7700 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7775 3900 7700 3900
+$Comp
+L MX-1U K_LEFT1
+U 1 1 5ACE6547
+P 7350 3725
+F 0 "K_LEFT1" H 7350 3850 60  0000 C CNN
+F 1 "MX-1U" H 7350 3775 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 7325 3700 60  0001 C CNN
+F 3 "" H 7325 3700 60  0001 C CNN
+	1    7350 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small D60
+U 1 1 5ACE654D
+P 7250 4000
+F 0 "D60" H 7200 4080 50  0000 L CNN
+F 1 "D_Small" H 7100 3920 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 7250 4000 50  0001 C CNN
+F 3 "" V 7250 4000 50  0001 C CNN
+	1    7250 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7325 3900 7250 3900
+Connection ~ 6925 3225
+Connection ~ 7825 3225
+Connection ~ 6800 3475
+Connection ~ 7700 3475
+Connection ~ 8325 3475
+Wire Wire Line
+	7250 4100 9175 4100
+Connection ~ 8325 4100
+Connection ~ 7700 4100
+Text GLabel 9175 4100 2    60   Input ~ 0
+ROW4
+Connection ~ 8600 1825
+Connection ~ 8600 2450
+Connection ~ 8600 3075
+Connection ~ 7975 2450
+Connection ~ 7975 3075
+Connection ~ 7525 1825
+Connection ~ 7925 2500
+Connection ~ 7925 3125
+Connection ~ 7475 1875
+Connection ~ 8550 3125
+Connection ~ 8550 1875
+Connection ~ 8550 2500
+Wire Wire Line
+	6950 3850 8450 3850
+Connection ~ 7825 3850
+Connection ~ 7375 3850
+Text GLabel 6950 3850 0    60   Input ~ 0
+LED-SW1
 $EndSCHEMATC
