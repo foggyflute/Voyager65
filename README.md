@@ -12,4 +12,5 @@ Cutting-edge 65% keyboard PCB
 * RGB underglow with WS2812B/C chips
 * Easy programming via TC2030-IDC header
 * Alps and MX compatibility
-* The latest technology, some of which is untested or unstable. Stable variant incoming soon.
+* **Completely** open-source: All the files you need to make a keyboard with it, design a case/plate for it, or even produce a batch of PCBs for your next GB, are all to be available free.
+* The latest technology, some of which is untested or unstable.
