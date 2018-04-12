@@ -154,6 +154,14 @@ F 3 "" V 3225 2275 50  0001 C CNN
 	1    3225 2275
 	0    -1   -1   0   
 $EndComp
+Text GLabel 3500 1400 1    60   Input ~ 0
+COL12
+Text GLabel 2800 1400 1    60   Input ~ 0
+COL11
+Text GLabel 2175 1400 1    60   Input ~ 0
+COL10
+Text GLabel 1500 2375 0    60   Input ~ 0
+ROW4
 Wire Wire Line
 	1900 2175 2325 2175
 Wire Wire Line
@@ -163,24 +171,16 @@ Wire Wire Line
 Wire Wire Line
 	3500 1400 3500 2475
 Connection ~ 3500 1975
-Text GLabel 3500 1400 1    60   Input ~ 0
-COL12
 Wire Wire Line
 	2800 1400 2800 2675
 Connection ~ 2800 1975
-Text GLabel 2800 1400 1    60   Input ~ 0
-COL11
 Wire Wire Line
 	2175 1400 2175 2475
 Connection ~ 2175 1975
-Text GLabel 2175 1400 1    60   Input ~ 0
-COL10
 Wire Wire Line
 	1500 2375 3225 2375
 Connection ~ 2525 2375
 Connection ~ 1900 2375
-Text GLabel 1500 2375 0    60   Input ~ 0
-ROW4
 Wire Wire Line
 	3500 2475 3300 2475
 Wire Wire Line
@@ -199,4 +199,32 @@ Wire Wire Line
 Wire Wire Line
 	2325 2675 2325 2175
 Connection ~ 1975 2175
+Wire Wire Line
+	2600 2175 2600 2875
+Wire Wire Line
+	2125 2025 2125 1000
+Text GLabel 2125 1000 1    60   Input ~ 0
+LED-CS11
+Wire Wire Line
+	2750 975  2750 2725
+Connection ~ 2750 2025
+Text GLabel 2750 975  1    60   Input ~ 0
+LED-CS12
+Wire Wire Line
+	3450 975  3450 2725
+Text GLabel 3450 975  1    60   Input ~ 0
+LED-CS13
+Connection ~ 3450 2025
+Wire Wire Line
+	2025 2125 3900 2125
+Text GLabel 3900 2125 2    60   Input ~ 0
+LED-SW1
+Connection ~ 3350 2125
+Connection ~ 2650 2125
+Wire Wire Line
+	2025 2125 2025 2825
+Wire Wire Line
+	2650 2825 2650 2125
+Wire Wire Line
+	3350 2125 3350 2825
 $EndSCHEMATC
