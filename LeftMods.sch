@@ -224,4 +224,35 @@ Wire Wire Line
 Wire Wire Line
 	2525 3475 2525 2775
 Connection ~ 2650 2775
+Wire Wire Line
+	2350 1975 2350 3225
+Connection ~ 2350 2625
+Text GLabel 2350 1975 1    60   Input ~ 0
+LED-CS1
+Wire Wire Line
+	2250 2725 3900 2725
+Connection ~ 2775 2725
+Connection ~ 3375 2725
+Text GLabel 3900 2725 2    60   Input ~ 0
+LED-SW1
+Wire Wire Line
+	3375 3325 3375 2725
+Wire Wire Line
+	2775 2725 2775 3925
+Connection ~ 2775 3325
+Wire Wire Line
+	2250 3325 2250 2725
+Wire Wire Line
+	2200 2775 2200 3375
+Wire Wire Line
+	2875 1975 2875 3825
+Text GLabel 2875 1975 1    60   Input ~ 0
+LED-CS2
+Wire Wire Line
+	3475 1950 3475 3225
+Text GLabel 3475 1950 1    60   Input ~ 0
+LED-CS3
+Connection ~ 2875 2625
+Connection ~ 3475 2625
+Connection ~ 2875 3225
 $EndSCHEMATC

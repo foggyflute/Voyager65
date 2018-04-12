@@ -120,7 +120,7 @@ U 1 1 5ACDC6A9
 P 2225 2250
 F 0 "SP4" H 2225 2375 60  0000 C CNN
 F 1 "MX-1.25U" H 2225 2300 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1.25U" H 2200 2225 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.25U-FLIPPED" H 2200 2225 60  0001 C CNN
 F 3 "" H 2200 2225 60  0001 C CNN
 	1    2225 2250
 	1    0    0    -1  
@@ -131,20 +131,9 @@ U 1 1 5ACDCCED
 P 2225 2850
 F 0 "SP6" H 2225 2975 60  0000 C CNN
 F 1 "MX-6.5U" H 2225 2900 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-6.5U-ReversedStabilizers" H 2200 2825 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-6.5U-FLIPPED-ReversedStabilizers" H 2200 2825 60  0001 C CNN
 F 3 "" H 2200 2825 60  0001 C CNN
 	1    2225 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX-7U SP8
-U 1 1 5ACDCFF5
-P 2225 3500
-F 0 "SP8" H 2225 3625 60  0000 C CNN
-F 1 "MX-1.5U" H 2225 3550 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1.5U" H 2200 3475 60  0001 C CNN
-F 3 "" H 2200 3475 60  0001 C CNN
-	1    2225 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -193,4 +182,112 @@ F 3 "" H 2200 4250 60  0001 C CNN
 	1    2225 4275
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1700 1150 1700 2225
+Wire Wire Line
+	1500 1725 1500 2425
+Connection ~ 1700 1525
+Wire Wire Line
+	2400 1150 2400 2225
+Wire Wire Line
+	2400 2425 2400 3250
+Wire Wire Line
+	2400 3475 2400 3975
+Connection ~ 2400 1525
+Connection ~ 2400 2225
+Wire Wire Line
+	2200 1725 2200 2425
+Connection ~ 2200 2425
+Connection ~ 2400 2825
+Connection ~ 2200 3675
+Wire Wire Line
+	3075 1150 3075 2225
+Wire Wire Line
+	2875 1725 2875 2425
+Wire Wire Line
+	1125 1925 2800 1925
+Connection ~ 2125 1925
+Connection ~ 1425 1925
+Text GLabel 1125 1925 0    60   Input ~ 0
+ROW4
+$Comp
+L MX-7U SP8
+U 1 1 5ACDCFF5
+P 2225 3500
+F 0 "SP8" H 2225 3625 60  0000 C CNN
+F 1 "MX-1.5U" H 2225 3550 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.5U" H 2200 3475 60  0001 C CNN
+F 3 "" H 2200 3475 60  0001 C CNN
+	1    2225 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3975 2200 3975
+Wire Wire Line
+	2200 3975 2200 4450
+Wire Wire Line
+	2400 4250 2400 4025
+Wire Wire Line
+	2400 4025 2100 4025
+Wire Wire Line
+	2100 4025 2100 3675
+Wire Wire Line
+	2100 3675 2200 3675
+Connection ~ 2200 3025
+Connection ~ 2400 3475
+Wire Wire Line
+	2400 2225 2600 2225
+Wire Wire Line
+	2600 2225 2600 3475
+Wire Wire Line
+	2600 3025 2200 3025
+Wire Wire Line
+	2200 2425 2400 2425
+Wire Wire Line
+	2400 3250 2200 3250
+Wire Wire Line
+	2200 3250 2200 3675
+Wire Wire Line
+	2600 3475 2400 3475
+Connection ~ 2600 3025
+Connection ~ 3075 1525
+Text GLabel 3075 1150 1    60   Input ~ 0
+COL8
+Text GLabel 2400 1150 1    60   Input ~ 0
+COL7
+Text GLabel 1700 1150 1    60   Input ~ 0
+COL4
+Wire Wire Line
+	1650 825  1650 2275
+Connection ~ 1650 1575
+Text GLabel 1650 825  1    60   Input ~ 0
+LED-CS5
+Wire Wire Line
+	2350 800  2350 4300
+Connection ~ 2350 2275
+Connection ~ 2350 1575
+Text GLabel 2350 800  1    60   Input ~ 0
+LED-CS8
+Wire Wire Line
+	3025 800  3025 2275
+Connection ~ 3025 1575
+Connection ~ 2350 2875
+Connection ~ 2350 3525
+Wire Wire Line
+	2250 1675 2250 4400
+Connection ~ 2250 3625
+Connection ~ 2250 2975
+Connection ~ 2250 2375
+Wire Wire Line
+	2925 1675 2925 2375
+Wire Wire Line
+	1550 2375 1550 1675
+Text GLabel 3025 800  1    60   Input ~ 0
+LED-CS9
+Wire Wire Line
+	1550 1675 3375 1675
+Connection ~ 2250 1675
+Connection ~ 2925 1675
+Text GLabel 3375 1675 2    60   Input ~ 0
+LED-SW1
 $EndSCHEMATC
