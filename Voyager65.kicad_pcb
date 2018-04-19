@@ -9513,7 +9513,7 @@
       (net 2 GND))
   )
 
-  (module locallib:mounting (layer F.Cu) (tedit 5AD6F78B) (tstamp 5AD6F7DD)
+  (module locallib:mounting locked (layer F.Cu) (tedit 5AD6F78B) (tstamp 5AD6F7DD)
     (at 72.6225 133.34)
     (fp_text reference REF** (at 0 5) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9530,7 +9530,7 @@
     (pad 1 thru_hole circle (at -1.25 1.75) (size 1 1) (drill 0.6) (layers *.Cu *.Mask))
   )
 
-  (module locallib:mounting-circular (layer F.Cu) (tedit 5AD6F75A) (tstamp 5AD6F5BE)
+  (module locallib:mounting-circular locked (layer F.Cu) (tedit 5AD6F75A) (tstamp 5AD6F5BE)
     (at 72.6225 76.2)
     (fp_text reference REF** (at 0 5) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9549,7 +9549,7 @@
     (pad 1 thru_hole circle (at -2 0) (size 1 1) (drill 0.6) (layers *.Cu *.Mask))
   )
 
-  (module locallib:mounting (layer F.Cu) (tedit 5AD6F78B) (tstamp 5ACEFFF7)
+  (module locallib:mounting locked (layer F.Cu) (tedit 5AD6F78B) (tstamp 5ACEFFF7)
     (at 176.2125 95.25)
     (fp_text reference REF** (at 0 5) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9566,7 +9566,7 @@
     (pad 1 thru_hole circle (at -1.25 1.75) (size 1 1) (drill 0.6) (layers *.Cu *.Mask))
   )
 
-  (module locallib:mounting (layer F.Cu) (tedit 5AD6F78B) (tstamp 5AD6EC6E)
+  (module locallib:mounting locked (layer F.Cu) (tedit 5AD6F78B) (tstamp 5AD6EC6E)
     (at 235.6025 133.35)
     (fp_text reference REF** (at 0 5) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9583,7 +9583,7 @@
     (pad 1 thru_hole circle (at -1.25 1.75) (size 1 1) (drill 0.6) (layers *.Cu *.Mask))
   )
 
-  (module locallib:mounting (layer F.Cu) (tedit 5AD6F78B) (tstamp 5AD6ED6B)
+  (module locallib:mounting locked (layer F.Cu) (tedit 5AD6F78B) (tstamp 5AD6ED6B)
     (at 314.3425 133.35)
     (fp_text reference REF** (at 0 5) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9600,7 +9600,7 @@
     (pad 1 thru_hole circle (at -1.25 1.75) (size 1 1) (drill 0.6) (layers *.Cu *.Mask))
   )
 
-  (module locallib:mounting (layer F.Cu) (tedit 5AD6F78B) (tstamp 5ACEFFA7)
+  (module locallib:mounting locked (layer F.Cu) (tedit 5AD6F78B) (tstamp 5ACEFFA7)
     (at 308.0725 76.2)
     (fp_text reference REF** (at 0 5) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9617,7 +9617,7 @@
     (pad 1 thru_hole circle (at -1.25 1.75) (size 1 1) (drill 0.6) (layers *.Cu *.Mask))
   )
 
-  (module locallib:mounting-circular (layer F.Cu) (tedit 5AD6F75A) (tstamp 5ACF0695)
+  (module locallib:mounting-circular locked (layer F.Cu) (tedit 5AD6F75A) (tstamp 5ACF0695)
     (at 128.5875 133.35)
     (fp_text reference REF** (at 0 5) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9636,7 +9636,7 @@
     (pad 1 thru_hole circle (at -2 0) (size 1 1) (drill 0.6) (layers *.Cu *.Mask))
   )
 
-  (module locallib:mounting-circular (layer F.Cu) (tedit 5AD6F75A) (tstamp 5ACF0673)
+  (module locallib:mounting-circular locked (layer F.Cu) (tedit 5AD6F75A) (tstamp 5ACF0673)
     (at 157.95625 66.675)
     (fp_text reference REF** (at 0 5) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9655,7 +9655,7 @@
     (pad 1 thru_hole circle (at -2 0) (size 1 1) (drill 0.6) (layers *.Cu *.Mask))
   )
 
-  (module locallib:mounting-circular (layer F.Cu) (tedit 5AD6F75A) (tstamp 5ACF0672)
+  (module locallib:mounting-circular locked (layer F.Cu) (tedit 5AD6F75A) (tstamp 5ACF0672)
     (at 253.20625 66.675)
     (fp_text reference REF** (at 0 5) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
