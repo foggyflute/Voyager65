@@ -4,3 +4,4 @@ Alps switches are wide! This means a regular M2 screw WILL NOT FIT between two k
 
 To get around this, find M2 screws with head diameters smaller than 3.45mm.
 
+Also, the screwdriver for securing the screw must be less than 1.7mm diameter.
