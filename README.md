@@ -14,3 +14,12 @@ Cutting-edge 65% keyboard PCB
 * Alps and MX compatibility
 * **Completely** open-source: All the files you need to make a keyboard with it, design a case/plate for it, or even produce a batch of PCBs for your next GB, are all to be available free.
 * The latest technology, some of which is untested or unstable.
+
+## Status
+* Prototypes created
+* Main switch matrix confirmed functional
+* LEDs still untested
+
+## Variants
+* Voyager65: This branch. All the features.
+* [V65LE](https://github.com/ai03-2725/Voyager65/tree/V65LE): A low-cost, stencil-less solderable variant. Same switch matrix, but with all LEDs removed.
