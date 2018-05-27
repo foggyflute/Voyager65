@@ -18,4 +18,4 @@ Low-cost 65% keyboard PCB
 
 ## Variants
 * [Voyager65](https://github.com/ai03-2725/Voyager65): The main variant of the Voyager65 family. All the cutting edge features.
-* [V65LE](https://github.com/ai03-2725/Voyager65/tree/V65LE): This branch. Low-cost variant.
+* V65LE: This branch. Low-cost variant.
