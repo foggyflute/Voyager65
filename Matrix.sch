@@ -1279,20 +1279,6 @@ Text GLabel 900  2600 0    60   Input ~ 0
 LED-SW3
 Text GLabel 1025 3225 0    60   Input ~ 0
 LED-SW2
-Text GLabel 5225 675  1    60   Input ~ 0
-LED-CS9
-Text GLabel 5675 675  1    60   Input ~ 0
-LED-CS10
-Text GLabel 6125 675  1    60   Input ~ 0
-LED-CS11
-Text GLabel 6575 675  1    60   Input ~ 0
-LED-CS12
-Text GLabel 7025 675  1    60   Input ~ 0
-LED-CS13
-Text GLabel 7475 675  1    60   Input ~ 0
-LED-CS14
-Text GLabel 7925 675  1    60   Input ~ 0
-LED-CS15
 $Sheet
 S 2800 3950 1375 750 
 U 5ACD5051
@@ -1977,34 +1963,48 @@ Connection ~ 7825 3850
 Connection ~ 7375 3850
 Text GLabel 6950 3850 0    60   Input ~ 0
 LED-SW1
-Text GLabel 4775 675  1    60   Input ~ 0
-LED-CS8
 Wire Wire Line
 	4325 675  4325 3125
-Text GLabel 4325 675  1    60   Input ~ 0
-LED-CS7
 Wire Wire Line
 	3875 675  3875 3125
-Text GLabel 3875 675  1    60   Input ~ 0
-LED-CS6
 Wire Wire Line
 	3425 675  3425 3125
-Text GLabel 3425 675  1    60   Input ~ 0
-LED-CS5
 Wire Wire Line
 	2975 675  2975 3125
-Text GLabel 2975 675  1    60   Input ~ 0
-LED-CS4
 Wire Wire Line
 	2525 675  2525 3125
-Text GLabel 2525 675  1    60   Input ~ 0
-LED-CS3
-Text GLabel 2075 675  1    60   Input ~ 0
-LED-CS2
 Wire Wire Line
 	2075 1250 2075 675 
 Wire Wire Line
 	1625 675  1625 3125
 Text GLabel 1625 675  1    60   Input ~ 0
 LED-CS1
+Text GLabel 2075 675  1    60   Input ~ 0
+LED-CS2
+Text GLabel 2525 675  1    60   Input ~ 0
+LED-CS3
+Text GLabel 2975 675  1    60   Input ~ 0
+LED-CS4
+Text GLabel 3425 675  1    60   Input ~ 0
+LED-CS5
+Text GLabel 3875 675  1    60   Input ~ 0
+LED-CS6
+Text GLabel 4325 675  1    60   Input ~ 0
+LED-CS7
+Text GLabel 4775 675  1    60   Input ~ 0
+LED-CS8
+Text GLabel 7925 675  1    60   Input ~ 0
+LED-CS15
+Text GLabel 7475 675  1    60   Input ~ 0
+LED-CS14
+Text GLabel 7025 675  1    60   Input ~ 0
+LED-CS13
+Text GLabel 6575 675  1    60   Input ~ 0
+LED-CS12
+Text GLabel 6125 675  1    60   Input ~ 0
+LED-CS11
+Text GLabel 5675 675  1    60   Input ~ 0
+LED-CS10
+Text GLabel 5225 675  1    60   Input ~ 0
+LED-CS9
 $EndSCHEMATC

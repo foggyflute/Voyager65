@@ -1279,22 +1279,6 @@ Text GLabel 900  2600 0    60   Input ~ 0
 LED-SW3
 Text GLabel 1025 3225 0    60   Input ~ 0
 LED-SW2
-Text GLabel 1625 675  1    60   Input ~ 0
-LED-CS1
-Text GLabel 2525 675  1    60   Input ~ 0
-LED-CS3
-Text GLabel 2075 675  1    60   Input ~ 0
-LED-CS2
-Text GLabel 2975 675  1    60   Input ~ 0
-LED-CS4
-Text GLabel 3425 675  1    60   Input ~ 0
-LED-CS5
-Text GLabel 3875 675  1    60   Input ~ 0
-LED-CS6
-Text GLabel 4325 675  1    60   Input ~ 0
-LED-CS7
-Text GLabel 4775 675  1    60   Input ~ 0
-LED-CS8
 Text GLabel 5225 675  1    60   Input ~ 0
 LED-CS9
 Text GLabel 5675 675  1    60   Input ~ 0
@@ -1668,37 +1652,23 @@ Wire Wire Line
 Connection ~ 4675 3225
 Connection ~ 5125 3225
 Connection ~ 5575 3225
-Wire Wire Line
-	1625 675  1625 3125
 Connection ~ 1625 1875
 Wire Wire Line
 	1625 2500 1175 2500
 Connection ~ 1625 2500
 Connection ~ 1625 1250
-Wire Wire Line
-	2525 675  2525 3125
 Connection ~ 2525 2500
 Connection ~ 2525 1875
 Connection ~ 2525 1250
-Wire Wire Line
-	2075 1250 2075 675 
-Wire Wire Line
-	2975 675  2975 3125
 Connection ~ 2975 2500
 Connection ~ 2975 1875
 Connection ~ 2975 1250
-Wire Wire Line
-	3425 675  3425 3125
 Connection ~ 3425 2500
 Connection ~ 3425 1875
 Connection ~ 3425 1250
-Wire Wire Line
-	3875 675  3875 3125
 Connection ~ 3875 2500
 Connection ~ 3875 1875
 Connection ~ 3875 1250
-Wire Wire Line
-	4325 675  4325 3125
 Connection ~ 4325 2500
 Connection ~ 4325 1875
 Connection ~ 4325 1250
@@ -2007,4 +1977,98 @@ Connection ~ 7825 3850
 Connection ~ 7375 3850
 Text GLabel 6950 3850 0    60   Input ~ 0
 LED-SW1
+Text GLabel 4775 675  1    60   Input ~ 0
+LED-CS8
+Wire Wire Line
+	4325 675  4325 3125
+Text GLabel 4325 675  1    60   Input ~ 0
+LED-CS7
+Wire Wire Line
+	3875 675  3875 3125
+Text GLabel 3875 675  1    60   Input ~ 0
+LED-CS6
+Wire Wire Line
+	3425 675  3425 3125
+Text GLabel 3425 675  1    60   Input ~ 0
+LED-CS5
+Wire Wire Line
+	2975 675  2975 3125
+Text GLabel 2975 675  1    60   Input ~ 0
+LED-CS4
+Wire Wire Line
+	2525 675  2525 3125
+Text GLabel 2525 675  1    60   Input ~ 0
+LED-CS3
+Text GLabel 2075 675  1    60   Input ~ 0
+LED-CS2
+Wire Wire Line
+	2075 1250 2075 675 
+Wire Wire Line
+	1625 675  1625 3125
+Text GLabel 1625 675  1    60   Input ~ 0
+LED-CS1
+Text GLabel 9475 5100 1    60   Input ~ 0
+LED-CS1
+Text GLabel 9575 5100 1    60   Input ~ 0
+LED-CS2
+Text GLabel 9675 5100 1    60   Input ~ 0
+LED-CS3
+Text GLabel 9775 5100 1    60   Input ~ 0
+LED-CS4
+Text GLabel 9875 5100 1    60   Input ~ 0
+LED-CS5
+Text GLabel 9975 5100 1    60   Input ~ 0
+LED-CS6
+Text GLabel 10075 5100 1    60   Input ~ 0
+LED-CS7
+Text GLabel 10175 5100 1    60   Input ~ 0
+LED-CS8
+Text GLabel 10275 5100 1    60   Input ~ 0
+LED-CS9
+Text GLabel 10375 5100 1    60   Input ~ 0
+LED-CS10
+Text GLabel 10475 5100 1    60   Input ~ 0
+LED-CS11
+Text GLabel 10575 5100 1    60   Input ~ 0
+LED-CS12
+Text GLabel 10675 5100 1    60   Input ~ 0
+LED-CS13
+Text GLabel 10775 5100 1    60   Input ~ 0
+LED-CS14
+Text GLabel 10875 5100 1    60   Input ~ 0
+LED-CS15
+Text GLabel 10975 5100 1    60   Input ~ 0
+LED-CS16
+Wire Wire Line
+	9175 5100 10975 5100
+$Comp
+L +5V #PWR016
+U 1 1 5B0A6DBD
+P 9275 5100
+F 0 "#PWR016" H 9275 4950 50  0001 C CNN
+F 1 "+5V" H 9275 5240 50  0000 C CNN
+F 2 "" H 9275 5100 50  0001 C CNN
+F 3 "" H 9275 5100 50  0001 C CNN
+	1    9275 5100
+	1    0    0    -1  
+$EndComp
+Text GLabel 9475 5700 3    60   Input ~ 0
+LED-SW1
+Text GLabel 9575 5700 3    60   Input ~ 0
+LED-SW2
+Text GLabel 9675 5700 3    60   Input ~ 0
+LED-SW3
+Text GLabel 9775 5700 3    60   Input ~ 0
+LED-SW4
+Text GLabel 9875 5700 3    60   Input ~ 0
+LED-SW5
+Wire Wire Line
+	9325 5700 9875 5700
+Text GLabel 9325 5675 1    60   Input ~ 0
+LEDGND
+Text GLabel 9175 5100 0    60   Input ~ 0
++5V
+Connection ~ 9275 5100
+Wire Wire Line
+	9325 5675 9325 5700
 $EndSCHEMATC
