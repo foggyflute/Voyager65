@@ -14,6 +14,8 @@ Low-cost 65% keyboard PCB
 * Low-cost with LED circuitry removed. Recommended for Alps-only boards.
 
 ## Status
+* Main Voyager65 switch matrix confirmed functional.
+	* V65AE shares its matrix circuitry and pinout with Voyager65.
 * Prototypes yet to be created.
 
 ## Variants
