@@ -10,10 +10,12 @@ Alps-specific 65% keyboard PCB
 * Type-C USB connector
 * Easy programming via TC2030-IDC header
 * **Completely** open-source: All the files you need to make a keyboard with it, design a case/plate for it, or even produce a batch of PCBs for your next GB, are all to be available free.
-* Low-cost with LED circuitry removed. Recommended for Alps-only boards.
+* Low-cost with LED circuitry removed. All parts are hand-solderable without a stencil.
 
 ## Status
-* Prototypes yet to be created.
+* Main Voyager65 switch matrix confirmed functional.
+	* V65AE shares its matrix circuitry and pinout with Voyager65.
+* V65AE prototypes yet to be created.
 
 ## Variants
 * [Voyager65](https://github.com/ai03-2725/Voyager65): The main variant of the Voyager65 family. All the cutting edge features.
