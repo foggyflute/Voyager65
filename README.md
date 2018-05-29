@@ -23,3 +23,4 @@ Cutting-edge 65% keyboard PCB
 ## Variants
 * Voyager65: This branch. All the features.
 * [V65LE](https://github.com/ai03-2725/Voyager65/tree/V65LE): A low-cost, stencil-less solderable variant. Same switch matrix, but with all LEDs removed.
+* [V65AE](https://github.com/ai03-2725/Voyager65/tree/V65AE): Alps-specific variant.
