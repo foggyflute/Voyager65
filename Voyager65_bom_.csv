@@ -1,0 +1,29 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,Unpolarized capacitor,C_Small,C2 C3 C4 C5,0.1u,C_0603,4,
+2,Unpolarized capacitor,C_Small,C6,10u,C_0603,1,
+3,Unpolarized capacitor,C_Small,C1,1u,C_0603,1,
+4,"Diode, small symbol",D_Small,D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 D11 D12 D13 D14 D15 D16 D17 D18 D19 D20 D21 D22 D23 D24 D25 D26 D27 D28 D29 D30 D31 D32 D33 D34 D35 D36 D37 D38 D39 D40 D41 D42 D43 D44 D45 D46 D47 D48 D49 D50 D51 D52 D53 D54 D55 D56 D57 D58 D59 D60 D61 D62 D63 D64 D65 D66 D67 D68 D69 D70 D71,D_Small,D_SOD-123,71,
+5,"resettable fuse, polymeric positive temperature coefficient (PPTC), small symbol",Polyfuse_Small,F1,500mA,R_0805,1,
+6,,TC2030-IDC,P1,TC2030-IDC,TC2030-NL_SMALL_AND_IDC_PDI,1,
+7,"Resistor, small symbol",R_Small,R1,10k,R_0603,1,
+8,"Resistor, small symbol",R_Small,R6 R7,5.1k,R_0603,2,
+9,,SW_PUSH,SW1,SW_PUSH,SKQG-1155865,1,
+10,"TQFP44, 16k Flash, 4k Boot, 2k SRAM, 1k EEPROM, JTAG, USB",ATXMEGA32A4U-AU,U1,ATXMEGA32A4U-AU,TQFP-44_10x10mm_Pitch0.8mm,1,http://www.atmel.com/Images/Atmel-8387-8-and16-bit-AVR-Microcontroller-XMEGA-A4U_Datasheet.pdf
+11,"250mA Low Quiscent Current LDO, 3.0V output, SOT-23",MCP1700-3002E_SOT23,U2,MCP1700T-3002E/TT,SOT-23,1,http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+12,,PRTR5V0U2X,U3,PRTR5V0U2X,SOT143B,1,
+13,,HRO-TYPE-C-31-M-12,USB1,HRO-TYPE-C-31-M-12,HRO-TYPE-C-31-M-12,1,https://datasheet.lcsc.com/szlcsc/TYPE-C-31-M-12-Female-head-socket-16P-SMD_C165948.pdf
+
+
+
+
+
+Component Groups:,13
+Component Count:,87
+Fitted Components:,87
+Number of PCBs:,1
+Total components:,87
+Schematic Version:,
+Schematic Date:,
+BoM Date:,6/8/2018 1:08:43 AM
+Schematic Source:,C:/Users/Ryota/Documents/GitHub/Voyager65/Voyager65.sch
+KiCad Version:,Eeschema 4.0.7
